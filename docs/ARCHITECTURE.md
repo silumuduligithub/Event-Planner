@@ -50,6 +50,23 @@ flowchart TD
 - `PATCH /api/bookings/:id/status` — Update booking status (`accepted`, `rejected`, `completed`, `cancelled`)
 - `PUT /api/bookings/:id/vendor-quote` — Vendor updates/adjusts custom quote amount or remarks
 
+#### Implemented estimate request contract
+
+`POST /api/bookings/calculate-estimate` requires a user Bearer token and a body such as:
+
+```json
+{
+  "vendorId": "<vendor ObjectId>",
+  "bookingType": "full_event_package",
+  "selectedServices": [{ "serviceId": "<service ObjectId>", "quantity": 200 }],
+  "selectedCelebrities": [{ "artistId": "<artist ObjectId>" }]
+}
+```
+
+Use `quantity` for plates, hours, or days according to each catalog item's `pricingType`; fixed and per-event items require quantity 1. The server resolves all prices from the vendor catalog. The response includes itemized services and artists, subtotal, discount (currently zero), tax amount, total, advance, pending amount, and configured rates. `POST /api/bookings` accepts the same selections plus `eventDate`, `eventLocation`, and optional `eventId`, `eventTime`, and `userNotes`; it recalculates prices before saving. Rates come from `ESTIMATE_TAX_RATE` (default 0) and `ESTIMATE_ADVANCE_RATE` (default 0.2). A tax rate of zero is intentional until a jurisdiction-specific policy is configured. The advance is an estimate of the requested payment, not a recorded payment.
+
+Vendor catalog updates use `PUT /api/vendors/profile`. Supplied `services` and `artistsOrCelebrities` arrays replace their current arrays; retain item `_id` values when editing existing entries. The seed script is disabled in production and requires `SEED_PASSWORD`.
+
 ### Reviews Endpoints
 - `POST /api/reviews` — User posts a review for a completed booking
 - `GET /api/reviews/vendor/:vendorId` — Get reviews for a vendor

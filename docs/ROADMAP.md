@@ -13,19 +13,25 @@ This document tracks the live implementation status. **Any AI assistant working 
 ---
 
 ## Phase 2: Backend Development (`backend/`)
-- [ ] Initialize Node.js + Express project with package.json & dependencies
-- [ ] Setup MongoDB connection via Mongoose (`src/config/db.js`)
-- [ ] Implement JWT Authentication & Password Hashing
-  - [ ] User register & login
-  - [ ] Vendor register & login
-  - [ ] Auth & Role verification middlewares (`protectUser`, `protectVendor`)
+- [x] Initialize Node.js + Express project with package.json & dependencies
+- [x] Setup MongoDB connection via Mongoose (`src/config/db.js`)
+- [x] Define Mongoose models for users, vendors, events, bookings, and reviews
+- [x] Verify API startup against a running MongoDB instance through route integration tests
+- [x] Implement JWT Authentication & Password Hashing
+  - [x] User register & login
+  - [x] Vendor register & login
+  - [x] Auth & Role verification middlewares (`protectUser`, `protectVendor`)
 - [ ] Implement User routes & controllers
 - [ ] Implement Vendor routes & controllers (Profile, Services, Portfolio)
-- [ ] Implement Event routes & controllers (Event CRUD)
+  - [x] Public search/detail and vendor-owned profile, services, artist roster, portfolio URL updates
+  - [ ] Dashboard statistics endpoint
+- [x] Implement Event routes & controllers (Event CRUD)
 - [ ] Implement Booking & Lead management routes & controllers
+  - [x] Server-priced estimate, booking request, user/vendor lists, vendor status transitions
+  - [ ] Vendor counter-quote endpoint and payment workflow
 - [ ] Implement Review & Rating system
-- [ ] Add input validation (Joi/Zod) and centralized error handling middleware
-- [ ] Setup seed script for test data (sample vendors, categories, events)
+- [x] Add Zod input validation and centralized error handling for implemented routes
+- [x] Setup guarded, repeatable seed script for demo user, vendors, and event
 
 ---
 
