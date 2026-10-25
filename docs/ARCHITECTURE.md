@@ -42,12 +42,15 @@ flowchart TD
 - `PUT /api/events/:id` — Update event details
 - `DELETE /api/events/:id` — Delete event
 
-### Booking Endpoints
-- `POST /api/bookings` — User requests a booking/quote from a vendor
-- `GET /api/bookings/user` — User gets their bookings
-- `GET /api/bookings/vendor` — Vendor gets their incoming leads/bookings
-- `PATCH /api/bookings/:id/status` — Vendor or User updates status (`accepted`, `rejected`, `completed`, `cancelled`)
+### Booking & Dynamic Estimate Endpoints
+- `POST /api/bookings/calculate-estimate` — Real-time dynamic quotation generator (calculates subtotal, taxes, advance, and total without saving)
+- `POST /api/bookings` — Submit final booking/quote request (Single service, Full Planner package, or Orchestra/Celebrity)
+- `GET /api/bookings/user` — User gets their bookings & estimates
+- `GET /api/bookings/vendor` — Vendor gets incoming booking requests & leads
+- `PATCH /api/bookings/:id/status` — Update booking status (`accepted`, `rejected`, `completed`, `cancelled`)
+- `PUT /api/bookings/:id/vendor-quote` — Vendor updates/adjusts custom quote amount or remarks
 
 ### Reviews Endpoints
 - `POST /api/reviews` — User posts a review for a completed booking
 - `GET /api/reviews/vendor/:vendorId` — Get reviews for a vendor
+

@@ -1,16 +1,17 @@
 # Database Schema & Data Models (MongoDB / Mongoose)
 
 ## 1. User Model (`models/User.js`)
-Used for regular clients/customers who plan events and book vendors.
+Used for clients/customers planning events or booking individual services.
 ```javascript
 {
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
   phone: { type: String },
+  city: { type: String },
   avatar: { type: String, default: "" },
   role: { type: String, enum: ["user", "admin"], default: "user" },
-  fcmToken: { type: String }, // For push notifications
+  fcmToken: { type: String },
   createdAt: { type: Date, default: Date.now }
 }
 ```
@@ -18,7 +19,7 @@ Used for regular clients/customers who plan events and book vendors.
 ---
 
 ## 2. Vendor Model (`models/Vendor.js`)
-Used for event service providers (caterers, photographers, venue owners, decorators, etc.).
+Service providers, event planners, photographers, caterers, orchestra/melody troupes, and celebrity managers.
 ```javascript
 {
   businessName: { type: String, required: true },
@@ -26,19 +27,22 @@ Used for event service providers (caterers, photographers, venue owners, decorat
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
   phone: { type: String, required: true },
-  category: { 
+  vendorType: { 
     type: String, 
     required: true,
     enum: [
-      "Venue", 
-      "Catering", 
-      "Photography", 
-      "Decoration", 
-      "DJ & Music", 
-      "Makeup & Styling", 
-      "Planner", 
+      "Event Planner",       // Full event organizer (Wedding, Birthday, etc.)
+      "Photography",         // Standalone cameraman/photographer
+      "Videography",
+      "Catering",
+      "Venue",
+      "Decoration",
+      "DJ & Sound",
+      "Orchestra & Melody",  // Band, orchestra troupe, live music
+      "Celebrity & Artist",  // Singers, actors, anchors, comedians
+      "Makeup & Styling",
       "Other"
-    ] 
+    ]
   },
   description: { type: String },
   address: {
@@ -48,14 +52,39 @@ Used for event service providers (caterers, photographers, venue owners, decorat
     fullAddress: { type: String }
   },
   portfolioImages: [{ type: String }],
+  videoLinks: [{ type: String }],
   startingPrice: { type: Number, default: 0 },
+  
+  // Dynamic Services Offered (Can be selected individually by user)
   services: [
     {
-      name: { type: String, required: true },
+      _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
+      name: { type: String, required: true }, // e.g. "Candid Photography", "Catering Buffet", "Stage Light Setup"
+      pricingType: { 
+        type: String, 
+        enum: ["fixed", "per_plate", "per_hour", "per_day", "per_event"], 
+        default: "fixed" 
+      },
       price: { type: Number, required: true },
-      description: { type: String }
+      description: { type: String },
+      isOptional: { type: Boolean, default: true }
     }
   ],
+
+  // Artists, Band Members & Celebrities (Especially for Orchestra/Melody/Celebrity agency vendors)
+  artistsOrCelebrities: [
+    {
+      _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
+      name: { type: String, required: true }, // e.g., "Star Singer Rahul", "Lead Violinist"
+      roleOrSkill: { type: String },           // e.g., "Playback Singer", "Anchor", "Lead Guitarist"
+      pricePerPerformance: { type: Number, required: true },
+      photo: { type: String },
+      sampleAudioVideoUrl: { type: String },
+      bio: { type: String },
+      isAvailable: { type: Boolean, default: true }
+    }
+  ],
+
   rating: { type: Number, default: 0 },
   reviewCount: { type: Number, default: 0 },
   isVerified: { type: Boolean, default: false },
@@ -67,19 +96,19 @@ Used for event service providers (caterers, photographers, venue owners, decorat
 ---
 
 ## 3. Event Model (`models/Event.js`)
-Events created by users (Wedding, Birthday Party, Corporate Meetup, etc.).
+Events created by a user (e.g. Wedding, Birthday Party).
 ```javascript
 {
   userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   title: { type: String, required: true },
   eventType: { 
     type: String, 
-    enum: ["Wedding", "Birthday", "Corporate", "Anniversary", "Concert", "Other"],
+    enum: ["Wedding", "Birthday", "Corporate", "Anniversary", "Concert", "Cultural", "Other"],
     required: true 
   },
-  date: { type: Date, required: true },
+  eventDate: { type: Date, required: true },
   location: {
-    city: { type: String },
+    city: { type: String, required: true },
     venueName: { type: String }
   },
   estimatedGuests: { type: Number, default: 0 },
@@ -91,26 +120,66 @@ Events created by users (Wedding, Birthday Party, Corporate Meetup, etc.).
 
 ---
 
-## 4. Booking Model (`models/Booking.js`)
-Connects a User, an Event, and a Vendor.
+## 4. Booking & Dynamic Estimate Model (`models/Booking.js`)
+Supports:
+1. Full Event Planner package with selected modular services
+2. Standalone single service (e.g., Cameraman only)
+3. Orchestra + Selected Celebrity / Artists
 ```javascript
 {
+  bookingType: { 
+    type: String, 
+    enum: ["full_event_package", "single_service", "orchestra_celebrity"], 
+    required: true 
+  },
   userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   vendorId: { type: mongoose.Schema.Types.ObjectId, ref: "Vendor", required: true },
-  eventId: { type: mongoose.Schema.Types.ObjectId, ref: "Event" },
-  servicePackage: {
-    name: { type: String },
-    price: { type: Number }
-  },
+  eventId: { type: mongoose.Schema.Types.ObjectId, ref: "Event" }, // Optional if single service
+  
+  // Selected modular services with customized quantities/price
+  selectedServices: [
+    {
+      serviceId: { type: mongoose.Schema.Types.ObjectId },
+      name: { type: String, required: true },
+      pricingType: { type: String },
+      unitPrice: { type: Number, required: true },
+      quantity: { type: Number, default: 1 }, // e.g. 200 plates, 5 hours, or 1 package
+      totalPrice: { type: Number, required: true }
+    }
+  ],
+
+  // Selected specific artists or celebrities from the troupe
+  selectedCelebrities: [
+    {
+      artistId: { type: mongoose.Schema.Types.ObjectId },
+      name: { type: String },
+      roleOrSkill: { type: String },
+      price: { type: Number }
+    }
+  ],
+
   eventDate: { type: Date, required: true },
+  eventTime: { type: String }, // e.g., "18:00 - 23:00"
+  eventLocation: {
+    city: { type: String, required: true },
+    address: { type: String }
+  },
+
+  // Dynamic Estimate Calculations
+  subtotal: { type: Number, required: true },
+  discount: { type: Number, default: 0 },
+  taxAmount: { type: Number, default: 0 },
+  totalAmount: { type: Number, required: true },
+  advanceAmount: { type: Number, default: 0 },
+  pendingAmount: { type: Number, required: true },
+
   status: { 
     type: String, 
-    enum: ["pending", "accepted", "rejected", "in_progress", "completed", "cancelled"], 
-    default: "pending" 
+    enum: ["estimate_requested", "pending", "accepted", "rejected", "in_progress", "completed", "cancelled"], 
+    default: "estimate_requested" 
   },
-  quotedPrice: { type: Number, required: true },
-  advancePaid: { type: Number, default: 0 },
-  notes: { type: String },
+  userNotes: { type: String },
+  vendorNotes: { type: String },
   createdAt: { type: Date, default: Date.now }
 }
 ```
@@ -118,7 +187,6 @@ Connects a User, an Event, and a Vendor.
 ---
 
 ## 5. Review Model (`models/Review.js`)
-Reviews given by users to vendors upon completion of bookings.
 ```javascript
 {
   userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },

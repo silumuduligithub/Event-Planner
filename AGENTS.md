@@ -49,3 +49,4 @@ Before answering or writing any code, ALWAYS read:
 2. **Do not hallucinate APIs**: Check `docs/DATABASE_SCHEMA.md` and existing routes before introducing new endpoints.
 3. **Always Update `docs/ROADMAP.md`**: When completing or starting tasks, update the checkboxes in `docs/ROADMAP.md`.
 4. **Clean Code**: Use descriptive variable names, proper error handling (try/catch with logging), and TypeScript/JSDoc annotations.
+

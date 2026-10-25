@@ -22,3 +22,4 @@ Event Management System with 3 parts:
 - REST API standard: Return `{ "success": boolean, "message": string, "data": any }`.
 - Error handling: Always use structured async/await with try-catch and status code handling.
 - Documentation: Keep `docs/ROADMAP.md` updated as tasks progress.
+
