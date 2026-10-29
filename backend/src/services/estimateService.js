@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
+const { createHash } = require('node:crypto');
 const Vendor = require('../models/Vendor');
 const env = require('../config/env');
 const { HttpError } = require('../utils/http');
+const { normalizeRequirements } = require('../utils/requirements');
 
 const money = (value) => Math.round((value + Number.EPSILON) * 100) / 100;
 
@@ -17,30 +19,32 @@ async function calculateEstimate(input) {
   if (input.bookingType === 'full_event_package' && !serviceIds.length) throw new HttpError(400, 'A package requires at least one service');
   if (input.bookingType === 'orchestra_celebrity' && !artistIds.length && !serviceIds.length) throw new HttpError(400, 'Select an orchestra service or artist');
 
-  const selectedServices = input.selectedServices.map(({ serviceId, quantity }) => {
+  const selectedServices = input.selectedServices.map(({ serviceId, quantity, requirements }) => {
     const service = vendor.services.id(serviceId);
     if (!service) throw new HttpError(400, `Service ${serviceId} is unavailable`);
     if (['fixed', 'per_event'].includes(service.pricingType) && quantity !== 1) throw new HttpError(400, `${service.name} has a fixed quantity of one`);
     return {
       serviceId: service._id, name: service.name, pricingType: service.pricingType,
-      unitPrice: service.price, quantity, totalPrice: money(service.price * quantity),
+      unitPrice: service.price, quantity, totalPrice: money(service.price * quantity), requirements: normalizeRequirements(requirements),
     };
   });
-  const selectedCelebrities = input.selectedCelebrities.map(({ artistId }) => {
+  const selectedCelebrities = input.selectedCelebrities.map(({ artistId, requirements }) => {
     const artist = vendor.artistsOrCelebrities.id(artistId);
     if (!artist || !artist.isAvailable) throw new HttpError(400, `Artist ${artistId} is unavailable`);
-    return { artistId: artist._id, name: artist.name, roleOrSkill: artist.roleOrSkill, price: artist.pricePerPerformance };
+    return { artistId: artist._id, name: artist.name, roleOrSkill: artist.roleOrSkill, price: artist.pricePerPerformance, requirements: normalizeRequirements(requirements) };
   });
   const subtotal = money(selectedServices.reduce((sum, item) => sum + item.totalPrice, 0) + selectedCelebrities.reduce((sum, item) => sum + item.price, 0));
   const taxAmount = money(subtotal * env.ESTIMATE_TAX_RATE);
   const totalAmount = money(subtotal + taxAmount);
   const advanceAmount = money(totalAmount * env.ESTIMATE_ADVANCE_RATE);
-  return {
-    vendorId: vendor._id, bookingType: input.bookingType, selectedServices, selectedCelebrities,
+  const estimate = {
+    vendorId: vendor._id, bookingType: input.bookingType, occasion: input.occasion, selectedServices, selectedCelebrities,
     subtotal, discount: 0, taxAmount, totalAmount, advanceAmount,
     pendingAmount: money(totalAmount - advanceAmount), taxRate: env.ESTIMATE_TAX_RATE,
     advanceRate: env.ESTIMATE_ADVANCE_RATE,
   };
+  const snapshot = { vendorId: String(vendor._id), bookingType: input.bookingType, occasion: input.occasion, selectedServices, selectedCelebrities, subtotal, taxAmount, totalAmount, advanceAmount };
+  return { ...estimate, quoteFingerprint: createHash('sha256').update(JSON.stringify(snapshot)).digest('hex') };
 }
 
 module.exports = { calculateEstimate };

@@ -1,0 +1,57 @@
+{
+  "verified": "2026-10-27",
+  "theme": "crimson-red",
+  "layout": "compact-mobile",
+  "checks": [
+    "Mobile section titles are at most 16px",
+    "Mobile page heading is at most 22px",
+    "Bottom navigation stays inside mobile viewport",
+    "Gallery moves to next photo",
+    "Unrated vendor has honest empty review state",
+    "Empty service selection cannot continue",
+    "Checkbox keeps keyboard focus after selection",
+    "Three services total 35000 + 60×850 + 2×2500 = 91000",
+    "Review preserves itemized total",
+    "Single service mode replaces prior selection",
+    "Quantity input recalculates 75 plates to 63750",
+    "Preview explicitly discloses no real submission",
+    "Event checklist updates",
+    "Adding vendor preserves event context",
+    "Saved vendor appears in shortlist",
+    "Unsave restores empty shortlist",
+    "Keyboard search produces honest empty result",
+    "Clearing filters restores all 11 vendors",
+    "Price sorting uses catalog starting rate",
+    "Category filter selects matching vendor",
+    "Explicit dark appearance uses dark product surface",
+    "Explore has no horizontal overflow at 320px viewport",
+    "Explore has no horizontal overflow at 390px viewport",
+    "Explore has no horizontal overflow at 736px viewport",
+    "Long custom occasion wraps at narrow width",
+    "No JavaScript runtime errors during tested interactions"
+  ],
+  "layouts": [
+    {
+      "outerViewport": 320,
+      "width": 288,
+      "scroll": 288,
+      "body": 288,
+      "viewport": 288
+    },
+    {
+      "outerViewport": 390,
+      "width": 358,
+      "scroll": 358,
+      "body": 358,
+      "viewport": 358
+    },
+    {
+      "outerViewport": 736,
+      "width": 402,
+      "scroll": 402,
+      "body": 704,
+      "viewport": 704
+    }
+  ],
+  "errors": []
+}

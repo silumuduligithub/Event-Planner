@@ -6,7 +6,13 @@ Used for clients/customers planning events or booking individual services.
 {
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
+  password: { type: String, required: function () { return !this.googleSub && !this.appleSub; }, select: false },
+  googleSub: { type: String, unique: true, sparse: true, select: false },
+  appleSub: { type: String, unique: true, sparse: true, select: false },
+  resetPasswordHash: { type: String, select: false },
+  resetPasswordExpiresAt: { type: Date, select: false },
+  resetPasswordSentAt: { type: Date, select: false },
+  savedVendors: [{ type: mongoose.Schema.Types.ObjectId, ref: "Vendor" }],
   phone: { type: String },
   city: { type: String },
   avatar: { type: String, default: "" },
@@ -54,6 +60,8 @@ Service providers, event planners, photographers, caterers, orchestra/melody tro
   portfolioImages: [{ type: String }],
   videoLinks: [{ type: String }],
   startingPrice: { type: Number, default: 0 },
+  supportedOccasionKeys: [{ type: String }], // e.g. wedding, engagement; normalized aliases
+  acceptsCustomOccasions: { type: Boolean, default: true },
   
   // Dynamic Services Offered (Can be selected individually by user)
   services: [
@@ -67,7 +75,8 @@ Service providers, event planners, photographers, caterers, orchestra/melody tro
       },
       price: { type: Number, required: true },
       description: { type: String },
-      isOptional: { type: Boolean, default: true }
+      isOptional: { type: Boolean, default: true },
+      occasionKeys: [{ type: String }] // optional; an empty list follows vendor coverage
     }
   ],
 
@@ -101,11 +110,8 @@ Events created by a user (e.g. Wedding, Birthday Party).
 {
   userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   title: { type: String, required: true },
-  eventType: { 
-    type: String, 
-    enum: ["Wedding", "Birthday", "Corporate", "Anniversary", "Concert", "Cultural", "Other"],
-    required: true 
-  },
+  eventType: { type: String, required: true, maxlength: 100 }, // preserves customer's exact occasion name
+  occasionKey: { type: String }, // normalized for known aliases and discovery
   eventDate: { type: Date, required: true },
   location: {
     city: { type: String, required: true },
@@ -113,6 +119,7 @@ Events created by a user (e.g. Wedding, Birthday Party).
   },
   estimatedGuests: { type: Number, default: 0 },
   totalBudget: { type: Number, default: 0 },
+  checklist: [{ title: String, completed: Boolean, dueDate: Date }],
   status: { type: String, enum: ["planning", "active", "completed", "cancelled"], default: "planning" },
   createdAt: { type: Date, default: Date.now }
 }
@@ -133,8 +140,11 @@ Supports:
     required: true 
   },
   userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+  requestKey: { type: String }, // optional idempotency key, unique with userId
+  requestHash: { type: String },
   vendorId: { type: mongoose.Schema.Types.ObjectId, ref: "Vendor", required: true },
-  eventId: { type: mongoose.Schema.Types.ObjectId, ref: "Event" }, // Optional if single service
+  eventId: { type: mongoose.Schema.Types.ObjectId, ref: "Event" }, // Optional for single or multiple services
+  occasion: { type: String, maxlength: 100 }, // Also supported without an event container
   
   // Selected modular services with customized quantities/price
   selectedServices: [
@@ -144,7 +154,8 @@ Supports:
       pricingType: { type: String },
       unitPrice: { type: Number, required: true },
       quantity: { type: Number, default: 1 }, // e.g. 200 plates, 5 hours, or 1 package
-      totalPrice: { type: Number, required: true }
+      totalPrice: { type: Number, required: true },
+      requirements: { /* optional customer preference strings; see below */ }
     }
   ],
 
@@ -154,7 +165,8 @@ Supports:
       artistId: { type: mongoose.Schema.Types.ObjectId },
       name: { type: String },
       roleOrSkill: { type: String },
-      price: { type: Number }
+      price: { type: Number },
+      requirements: { /* optional customer preference strings; see below */ }
     }
   ],
 
@@ -185,6 +197,8 @@ Supports:
 ```
 
 ---
+
+Booking selection `requirements` accepts only `menu`, `meal`, `requests`, `theme`, `area`, `setup`, `start`, `coverage`, `format`, `look`, and `layout`. Values are trimmed customer preference strings, at most 500 characters each; `start` must use 24-hour `HH:mm`. Empty strings are omitted. The estimate and booking snapshot retain these values for the customer and vendor. They do not change prices or promise vendor inclusions. Existing bookings without requirements remain readable.
 
 ## 5. Review Model (`models/Review.js`)
 ```javascript

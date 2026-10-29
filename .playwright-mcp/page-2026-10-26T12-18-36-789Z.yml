@@ -1,0 +1,511 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Meragi Logo" [ref=e9]
+      - navigation [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "Venues" [ref=e12] [cursor=pointer]:
+          - /url: /venue-catalogue/bangalore/
+        - link "Destinations" [ref=e13] [cursor=pointer]:
+          - /url: /destination/
+        - link "Partners" [ref=e14] [cursor=pointer]:
+          - /url: /partner-with-us/
+        - link "Services" [ref=e15] [cursor=pointer]:
+          - /url: /services/
+        - link "Wedding Guide" [ref=e16] [cursor=pointer]:
+          - /url: /wedding-planning-guide/
+        - link "Careers" [ref=e17] [cursor=pointer]:
+          - /url: /careers/
+        - link "About Us" [ref=e18] [cursor=pointer]:
+          - /url: /about/
+        - link "Blogs" [ref=e19] [cursor=pointer]:
+          - /url: /blogs/
+    - generic [ref=e20]:
+      - button "Close navigation menu" [ref=e21] [cursor=pointer]
+      - navigation [ref=e24]:
+        - link "Home" [ref=e25] [cursor=pointer]:
+          - /url: /
+        - separator [ref=e26]
+        - link "Venues" [ref=e27] [cursor=pointer]:
+          - /url: /venue-catalogue/bangalore/
+        - separator [ref=e28]
+        - link "Destinations" [ref=e29] [cursor=pointer]:
+          - /url: /destination/
+        - separator [ref=e30]
+        - link "Partners" [ref=e31] [cursor=pointer]:
+          - /url: /partner-with-us/
+        - separator [ref=e32]
+        - link "Services" [ref=e33] [cursor=pointer]:
+          - /url: /services/
+        - separator [ref=e34]
+        - link "Wedding Guide" [ref=e35] [cursor=pointer]:
+          - /url: /wedding-planning-guide/
+        - separator [ref=e36]
+        - link "Careers" [ref=e37] [cursor=pointer]:
+          - /url: /careers/
+        - separator [ref=e38]
+        - link "About Us" [ref=e39] [cursor=pointer]:
+          - /url: /about/
+        - separator [ref=e40]
+        - link "Blogs" [ref=e41] [cursor=pointer]:
+          - /url: /blogs/
+  - main [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - img "Meragi Wedding" [ref=e46]
+        - generic [ref=e50]:
+          - generic [ref=e52]:
+            - button "City Wedding" [pressed] [ref=e53] [cursor=pointer]
+            - button "Destination Wedding" [ref=e55] [cursor=pointer]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: Featured Venues
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - img "Srishti Vilasa" [ref=e67]
+                    - generic [ref=e68]: "4.9"
+                  - generic [ref=e71]:
+                    - generic [ref=e72]:
+                      - heading "Srishti Vilasa" [level=3] [ref=e73]
+                      - generic [ref=e74]: Bangalore
+                    - generic [ref=e78]:
+                      - generic [ref=e79]:
+                        - generic [ref=e80]: Capacity
+                        - generic [ref=e81]: 1000 pax
+                      - generic [ref=e82]:
+                        - generic [ref=e83]: Starting from
+                        - generic [ref=e84]: ₹4L
+                - generic [ref=e85]:
+                  - generic [ref=e86]:
+                    - img "The Celeste" [ref=e87]
+                    - generic [ref=e88]: "4.9"
+                  - generic [ref=e91]:
+                    - generic [ref=e92]:
+                      - heading "The Celeste" [level=3] [ref=e93]
+                      - generic [ref=e94]: Hyderabad
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e100]: Capacity
+                        - generic [ref=e101]: 1000 pax
+                      - generic [ref=e102]:
+                        - generic [ref=e103]: Starting from
+                        - generic [ref=e104]: ₹5.5L
+                - generic [ref=e105]:
+                  - generic [ref=e106]:
+                    - img "Tridalam" [ref=e107]
+                    - generic [ref=e108]: "4.9"
+                  - generic [ref=e111]:
+                    - generic [ref=e112]:
+                      - heading "Tridalam" [level=3] [ref=e113]
+                      - generic [ref=e114]: Bangalore
+                    - generic [ref=e118]:
+                      - generic [ref=e119]:
+                        - generic [ref=e120]: Capacity
+                        - generic [ref=e121]: 1000 pax
+                      - generic [ref=e122]:
+                        - generic [ref=e123]: Starting from
+                        - generic [ref=e124]: ₹6.5L
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - img "Eden Farms" [ref=e127]
+                    - generic [ref=e128]: "5.0"
+                  - generic [ref=e131]:
+                    - generic [ref=e132]:
+                      - heading "Eden Farms" [level=3] [ref=e133]
+                      - generic [ref=e134]: Bangalore
+                    - generic [ref=e138]:
+                      - generic [ref=e139]:
+                        - generic [ref=e140]: Capacity
+                        - generic [ref=e141]: 900 pax
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: Starting from
+                        - generic [ref=e144]: ₹4.5L
+            - generic [ref=e145]:
+              - heading "Venues that plan weddings, not just host them" [level=1] [ref=e146]
+              - paragraph [ref=e147]: From decor to photography, catering to logistics, we handle the chaos so you can handle the celebration.
+              - button "Talk to a planner" [ref=e149] [cursor=pointer]
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Weddings planned
+                  - generic [ref=e155]: 2,500+
+                - generic [ref=e156]:
+                  - generic [ref=e157]: Design options
+                  - generic [ref=e158]: 10,000+
+                - generic [ref=e159]:
+                  - generic [ref=e160]: Customer rating
+                  - generic [ref=e161]: 4.8/5
+      - generic [ref=e162]:
+        - generic [ref=e165]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: Plug & play vs bare shell
+            - heading "Most venues are a space. Managed venues are a system." [level=2] [ref=e172]
+            - paragraph [ref=e173]: A venue gives you the space. We bring the people, the planning, and the responsibility - like family would.
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - heading "Bare shell venue" [level=3] [ref=e176]
+              - list [ref=e177]:
+                - listitem [ref=e178]:
+                  - generic [ref=e182]: You source planner, décor, catering, hospitality separately
+                - listitem [ref=e183]:
+                  - generic [ref=e187]: Multiple vendors, unclear handoffs, decision overload
+                - listitem [ref=e188]:
+                  - generic [ref=e192]: Execution quality depends on coordination on the day
+            - generic [ref=e193]:
+              - heading "Meragi Venue" [level=3] [ref=e194]
+              - list [ref=e195]:
+                - listitem [ref=e196]:
+                  - generic [ref=e199]: One accountable owner for plan + people + execution
+                - listitem [ref=e200]:
+                  - generic [ref=e203]: Plug & play templates for timelines, décor, hospitality
+                - listitem [ref=e204]:
+                  - generic [ref=e207]: Predictable outcomes with an on-ground team
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - generic [ref=e215]: Explore City Options
+              - heading "Meragi venues" [level=3] [ref=e220]
+              - paragraph [ref=e221]: Curated venues with standardized service, clear inclusions, and a team that knows the space end-to-end.
+            - generic [ref=e222]:
+              - button "Bangalore" [ref=e223] [cursor=pointer]
+              - button "Hyderabad" [ref=e224] [cursor=pointer]
+              - button "View all" [ref=e225] [cursor=pointer]
+          - generic [ref=e229]:
+            - generic [ref=e230] [cursor=pointer]:
+              - img "Tridalam" [ref=e232]
+              - generic [ref=e234]:
+                - generic [ref=e235]:
+                  - heading "Tridalam" [level=4] [ref=e236]
+                  - generic [ref=e237]: Bangalore
+                - generic [ref=e240]: Venue
+              - generic [ref=e241]:
+                - generic [ref=e242]:
+                  - generic [ref=e243]: Capacity
+                  - generic [ref=e244]: 1000 pax
+                - generic [ref=e245]:
+                  - generic [ref=e246]: Budget
+                  - generic [ref=e247]: From ₹6.5L
+              - button "View Price & Details" [ref=e249]
+            - generic [ref=e252] [cursor=pointer]:
+              - img "Ananda Farms" [ref=e254]
+              - generic [ref=e256]:
+                - generic [ref=e257]:
+                  - heading "Ananda Farms" [level=4] [ref=e258]
+                  - generic [ref=e259]: Bangalore
+                - generic [ref=e262]: Venue
+              - generic [ref=e263]:
+                - generic [ref=e264]:
+                  - generic [ref=e265]: Capacity
+                  - generic [ref=e266]: 400 pax
+                - generic [ref=e267]:
+                  - generic [ref=e268]: Budget
+                  - generic [ref=e269]: From ₹3L
+              - button "View Price & Details" [ref=e271]
+            - generic [ref=e274] [cursor=pointer]:
+              - img "Eden Farms" [ref=e276]
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - heading "Eden Farms" [level=4] [ref=e280]
+                  - generic [ref=e281]: Bangalore
+                - generic [ref=e284]: Venue
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]: Capacity
+                  - generic [ref=e288]: 800 pax
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Budget
+                  - generic [ref=e291]: From ₹4.5L
+              - button "View Price & Details" [ref=e293]
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - generic [ref=e301]: Wedding System
+            - heading "A wedding system you can deploy" [level=3] [ref=e305]
+            - paragraph [ref=e306]: Instead of building from scratch in a bare-shell venue, you start from a proven baseline and personalize from there. Meragi owns the run-of-show, vendor handoffs, hospitality flow, and execution.
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - heading "Choose a managed venue" [level=4] [ref=e309]
+              - paragraph [ref=e310]: Pick a venue where Meragi owns the plan, people, and execution.
+            - generic [ref=e311]:
+              - heading "Pick a look + menu" [level=4] [ref=e312]
+              - paragraph [ref=e313]: Select from ready-to-deploy décor directions and chef-led menu options - customized to your guest count.
+            - generic [ref=e314]:
+              - heading "Show up and celebrate" [level=4] [ref=e315]
+              - paragraph [ref=e316]: We run the timelines, vendors, hospitality, and day-of flow. You enjoy the wedding.
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - generic [ref=e323]: Iconic Partner Ecosystem
+            - heading "We Are Anywhere You Want To Get Married" [level=3] [ref=e329]
+            - paragraph [ref=e330]: Escape to the extraordinary without the stress. Whether it's a royal palace in Jaipur or sun-kissed beach in Goa, we bring Meragi's operational excellence to India's most iconic locations. We manage the travel, the vendors, and the logistics. You simply show up and celebrate.
+            - button "Explore Destination Options" [ref=e332] [cursor=pointer]
+          - generic [ref=e336]:
+            - generic [ref=e337] [cursor=pointer]:
+              - img "Tan N Sand" [ref=e339]
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - heading "Tan N Sand" [level=4] [ref=e343]
+                  - generic [ref=e344]: Goa
+                - generic [ref=e347]: Venue
+              - generic [ref=e348]:
+                - generic [ref=e349]:
+                  - generic [ref=e350]: Capacity
+                  - generic [ref=e351]: 180 pax
+                - generic [ref=e352]:
+                  - generic [ref=e353]: Budget
+                  - generic [ref=e354]: From ₹40L
+              - button "View Price & Details" [ref=e356]
+            - generic [ref=e359] [cursor=pointer]:
+              - img "Chomu Palace Hotel" [ref=e361]
+              - generic [ref=e363]:
+                - generic [ref=e364]:
+                  - heading "Chomu Palace Hotel" [level=4] [ref=e365]
+                  - generic [ref=e366]: Jaipur
+                - generic [ref=e369]: Venue
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: Capacity
+                  - generic [ref=e373]: 1200 pax
+                - generic [ref=e374]:
+                  - generic [ref=e375]: Budget
+                  - generic [ref=e376]: From ₹50L
+              - button "View Price & Details" [ref=e378]
+        - generic [ref=e381]:
+          - generic [ref=e383]:
+            - generic [ref=e384]:
+              - generic [ref=e385]: Enabled with Tech
+              - heading "Tech Enabled Experience" [level=2] [ref=e390]
+              - paragraph [ref=e391]: Browse through 10,000+ expertly selected designs to bring your vision to life. Designs as unique as your love.
+            - generic [ref=e392]: Your browser does not support the video tag.
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - generic [ref=e398]: Real Weddings
+              - heading "Inspired by your dreams" [level=2] [ref=e403]
+            - generic [ref=e405]:
+              - img "Meragi Wedding Gallery - Image 1" [ref=e411]
+              - img "Meragi Wedding Gallery - Image 2" [ref=e417]
+              - img "Meragi Wedding Gallery - Image 3" [ref=e423]
+              - img "Meragi Wedding Gallery - Image 4" [ref=e429]
+              - img "Meragi Wedding Gallery - Image 5" [ref=e435]
+              - img "Meragi Wedding Gallery - Image 6" [ref=e441]
+              - img "Meragi Wedding Gallery - Image 7" [ref=e447]
+            - generic [ref=e448]:
+              - button "Wedding" [ref=e449] [cursor=pointer]
+              - button "Engagement" [ref=e450] [cursor=pointer]
+              - button "Haldi & Mehendi" [ref=e451] [cursor=pointer]
+              - button "Reception" [ref=e452] [cursor=pointer]
+          - generic [ref=e454]:
+            - generic [ref=e455]:
+              - generic [ref=e456]: Testimonials
+              - heading "Customer stories, unforgettable memories" [level=2] [ref=e461]
+            - generic [ref=e462]:
+              - generic [ref=e463]:
+                - paragraph [ref=e468]: Outstanding experience with Meragi. They are thorough professionals & are sure to make your event memorable for all your guests & peaceful for you!
+                - generic [ref=e470]:
+                  - heading "Ashwin Suresh" [level=4] [ref=e471]
+                  - paragraph [ref=e472]: Destination Wedding
+              - generic [ref=e473]:
+                - paragraph [ref=e478]: The whole team was so patient while I tried to finalize my decor for the big day. All the hard work you guys put into this piece really showed!
+                - generic [ref=e480]:
+                  - heading "Neha Harish" [level=4] [ref=e481]
+                  - paragraph [ref=e482]: Metro Wedding
+              - generic [ref=e483]:
+                - paragraph [ref=e488]: The styling consultations were gold. Outfits, makeup, everything looked cohesive across events.
+                - generic [ref=e490]:
+                  - heading "Naina & Arjun" [level=4] [ref=e491]
+                  - paragraph [ref=e492]: Multi-event Celebration
+              - generic [ref=e493]:
+                - paragraph [ref=e498]: Meragi Events helped us immensely with Decor on our Engagement Day. Pooja and Twinkle was really helpful and amazing secret keepers which helped us plan surprises for me and my fiancé.
+                - generic [ref=e500]:
+                  - heading "Lisha & Christo" [level=4] [ref=e501]
+                  - paragraph [ref=e502]: Engagement Ceremony
+              - generic [ref=e503]:
+                - paragraph [ref=e508]: Meragi recently did my engagement decor and the outcome was beautiful! Their team was very well organized and ensured everything was on time.
+                - generic [ref=e510]:
+                  - heading "Dr. Maria Varghese" [level=4] [ref=e511]
+                  - paragraph [ref=e512]: Reception Decor
+          - generic [ref=e514]:
+            - generic [ref=e515]:
+              - generic [ref=e516]: Meragi Weddings
+              - heading "A legacy of love" [level=2] [ref=e521]
+            - generic [ref=e523]:
+              - generic [ref=e524] [cursor=pointer]:
+                - img "Snehal & Karma - Udaipur" [ref=e530]
+                - generic [ref=e531]:
+                  - heading "Udaipur" [level=3] [ref=e532]
+                  - generic [ref=e533]: Case
+                - generic [ref=e534]: 250 guests
+                - generic [ref=e535]:
+                  - generic [ref=e536]: Budget bracket
+                  - generic [ref=e537]: ₹55L to ₹75L
+                - generic [ref=e538]:
+                  - button "View Photos" [ref=e539]
+                  - button "Plan something similar" [ref=e540]
+              - generic [ref=e541] [cursor=pointer]:
+                - img "Priya & Nick - Goa" [ref=e547]
+                - generic [ref=e548]:
+                  - heading "Goa" [level=3] [ref=e549]
+                  - generic [ref=e550]: Case
+                - generic [ref=e551]: 150 guests
+                - generic [ref=e552]:
+                  - generic [ref=e553]: Budget bracket
+                  - generic [ref=e554]: ₹35L to ₹50L
+                - generic [ref=e555]:
+                  - button "View Photos" [ref=e556]
+                  - button "Plan something similar" [ref=e557]
+              - generic [ref=e558] [cursor=pointer]:
+                - img "Keerthi & Antony - Bangalore" [ref=e564]
+                - generic [ref=e565]:
+                  - heading "Bangalore" [level=3] [ref=e566]
+                  - generic [ref=e567]: Case
+                - generic [ref=e568]: 400 guests
+                - generic [ref=e569]:
+                  - generic [ref=e570]: Budget bracket
+                  - generic [ref=e571]: ₹25L to ₹40L
+                - generic [ref=e572]:
+                  - button "View Photos" [ref=e573]
+                  - button "Plan something similar" [ref=e574]
+              - generic [ref=e575] [cursor=pointer]:
+                - img "Dania & Laksh - Coorg" [ref=e577]
+                - generic [ref=e578]:
+                  - heading "Coorg" [level=3] [ref=e579]
+                  - generic [ref=e580]: Case
+                - generic [ref=e581]: 120 guests
+                - generic [ref=e582]:
+                  - generic [ref=e583]: Budget bracket
+                  - generic [ref=e584]: ₹45L to ₹60L
+                - generic [ref=e585]:
+                  - button "View Photos" [ref=e586]
+                  - button "Plan something similar" [ref=e587]
+          - generic [ref=e589]:
+            - generic [ref=e590]:
+              - generic [ref=e591]: Offices
+              - heading "Meet our experts in person" [level=2] [ref=e596]
+            - generic [ref=e597]:
+              - generic [ref=e598]:
+                - generic [ref=e599]:
+                  - heading "Bangalore" [level=3] [ref=e600]
+                  - paragraph [ref=e601]: Meragi Events, Think Tank, KHB Block, Koramangala
+                - generic [ref=e602] [cursor=pointer]: Get Directions
+              - generic [ref=e603]:
+                - generic [ref=e604]:
+                  - heading "Hyderabad" [level=3] [ref=e605]
+                  - paragraph [ref=e606]: 3rd floor, Alcazar Mall, Jubilee Hills
+                - generic [ref=e607] [cursor=pointer]: Get Directions
+              - generic [ref=e608]:
+                - generic [ref=e609]:
+                  - heading "Goa" [level=3] [ref=e610]
+                  - paragraph [ref=e611]: Meragi Goa, Colva, Gandaulim
+                - generic [ref=e612] [cursor=pointer]: Get Directions
+              - generic [ref=e613]:
+                - generic [ref=e614]:
+                  - heading "Delhi NCR" [level=3] [ref=e615]
+                  - paragraph [ref=e616]: SupremeWork, Mehrauli-Gurgaon Rd, New Delhi
+                - generic [ref=e617] [cursor=pointer]: Get Directions
+              - generic [ref=e618]:
+                - generic [ref=e619]:
+                  - heading "Jaipur" [level=3] [ref=e620]
+                  - paragraph [ref=e621]: Nimble Cowork, 2nd Floor, Anand Bhawan
+                - generic [ref=e622] [cursor=pointer]: Get Directions
+              - generic [ref=e623]:
+                - generic [ref=e624]:
+                  - heading "Udaipur" [level=3] [ref=e625]
+                  - paragraph [ref=e626]: 5th Floor, DevX, Udaipur
+                - generic [ref=e627] [cursor=pointer]: Get Directions
+          - generic [ref=e630]:
+            - generic [ref=e631]:
+              - generic [ref=e632]: Get a plan
+              - heading "Tell us your basics" [level=2] [ref=e636]
+              - paragraph [ref=e637]: We will reply with venue options and a first-cut plan. Fast, structured, no spam.
+              - generic [ref=e638]:
+                - generic [ref=e639]: Dates or month range
+                - generic [ref=e642]: Guest count
+                - generic [ref=e645]: City preferences
+                - generic [ref=e648]: Budget band
+              - generic [ref=e651]:
+                - generic [ref=e652]: Fast track
+                - generic [ref=e653]: If you already have dates, we can shortlist venues the same day.
+                - generic [ref=e654]:
+                  - link "WhatsApp us" [ref=e655] [cursor=pointer]:
+                    - /url: https://wa.me/9178992 37053
+                  - link "Request a call" [ref=e658] [cursor=pointer]:
+                    - /url: tel:+9178992 37053
+            - generic [ref=e661]:
+              - generic [ref=e662]:
+                - heading "Consult an Expert" [level=3] [ref=e663]
+                - paragraph [ref=e664]: Share your details and we'll get back to you with a plan.
+              - generic [ref=e666]:
+                - generic [ref=e667]:
+                  - generic [ref=e668]: Full Name
+                  - textbox "Enter your Full Name" [ref=e669]
+                - generic [ref=e670]:
+                  - generic [ref=e671]: Phone Number
+                  - generic [ref=e672]:
+                    - button "+91" [ref=e674] [cursor=pointer]
+                    - textbox "Enter Phone Number" [ref=e677]
+                - generic [ref=e678]:
+                  - generic [ref=e679]: Event Month
+                  - button "Select a Month" [ref=e680] [cursor=pointer]
+                - generic [ref=e683]:
+                  - generic [ref=e684]: Event Location
+                  - button "Select a Location" [ref=e685] [cursor=pointer]
+                - generic [ref=e688]:
+                  - generic [ref=e689]: Have you already decided the venue?
+                  - generic [ref=e690]:
+                    - generic [ref=e691]:
+                      - radio "Yes" [ref=e692]
+                      - generic [ref=e693]: "Yes"
+                    - generic [ref=e694]:
+                      - radio "No" [ref=e695]
+                      - generic [ref=e696]: "No"
+                - generic [ref=e697]:
+                  - checkbox "Send me updates on WhatsApp" [checked] [ref=e698]
+                  - generic [ref=e699]: Send me updates on WhatsApp
+                - button "Get My Plan" [ref=e700] [cursor=pointer]
+          - generic [ref=e702]:
+            - generic [ref=e703]:
+              - generic [ref=e704]: FAQ
+              - heading "Answers to common questions" [level=2] [ref=e708]
+              - paragraph [ref=e709]: If you want, we can share a sample budget breakdown for your style.
+            - generic [ref=e711]:
+              - button "What services does Meragi offer?" [ref=e713] [cursor=pointer]
+              - button "What is the starting price for Meragi’s wedding decor?" [ref=e719] [cursor=pointer]
+              - button "What is a Meragi wedding designer and why do I need one?" [ref=e725] [cursor=pointer]
+              - button "Does Meragi also provide destination wedding packages?" [ref=e731] [cursor=pointer]
+              - button "Does Meragi provide decor for events other than weddings?" [ref=e737] [cursor=pointer]
+              - button "I came across a wedding design on your Instagram page that I like. How can I get it for my wedding?" [ref=e743] [cursor=pointer]
+  - contentinfo [ref=e748]:
+    - generic [ref=e749]:
+      - generic [ref=e750]:
+        - img "Meragi Logo" [ref=e752]
+        - generic [ref=e753]:
+          - heading "Contact" [level=2] [ref=e754]
+          - paragraph [ref=e755]:
+            - link "contact@meragi.com" [ref=e756] [cursor=pointer]:
+              - /url: mailto:contact@meragi.com
+            - text: (For Enquiry)
+          - paragraph [ref=e757]:
+            - link "care@meragi.com" [ref=e758] [cursor=pointer]:
+              - /url: mailto:care@meragi.com
+            - text: (For Grievances)
+          - paragraph [ref=e759]:
+            - link "Feedback Form" [ref=e760] [cursor=pointer]:
+              - /url: /reviews
+          - paragraph [ref=e761]:
+            - link "+9178992 37053" [ref=e762] [cursor=pointer]:
+              - /url: tel:+9178992 37053
+        - generic [ref=e763]:
+          - heading "Address" [level=2] [ref=e764]
+          - paragraph [ref=e765]: Meragi Events E-Commerce Private Limited,Think Tank, KHB Block Koramangala,Bangalore, Karnataka-560034
+      - generic [ref=e766]:
+        - generic [ref=e767]:
+          - paragraph [ref=e768]: © 2026 Meragi. All Rights Reserved
+          - paragraph [ref=e769]: "CIN: U74999KA2021PTC147715"
+        - generic [ref=e770]:
+          - link "Reviews" [ref=e771] [cursor=pointer]:
+            - /url: /reviews
+          - link "Privacy Policy" [ref=e772] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Terms & Conditions" [ref=e773] [cursor=pointer]:
+            - /url: /terms-and-conditions

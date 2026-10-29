@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { occasionKey } = require('../utils/occasion');
 
 const serviceSchema = new mongoose.Schema({
   name: { type: String, required: true, trim: true },
@@ -6,6 +7,7 @@ const serviceSchema = new mongoose.Schema({
   price: { type: Number, required: true, min: 0 },
   description: String,
   isOptional: { type: Boolean, default: true },
+  occasionKeys: [{ type: String, set: occasionKey }],
 });
 
 const artistSchema = new mongoose.Schema({
@@ -35,6 +37,8 @@ const vendorSchema = new mongoose.Schema({
   portfolioImages: [{ type: String }],
   videoLinks: [{ type: String }],
   startingPrice: { type: Number, default: 0, min: 0 },
+  supportedOccasionKeys: [{ type: String, set: occasionKey }],
+  acceptsCustomOccasions: { type: Boolean, default: true },
   services: [serviceSchema],
   artistsOrCelebrities: [artistSchema],
   rating: { type: Number, default: 0, min: 0, max: 5 },
@@ -44,4 +48,5 @@ const vendorSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 vendorSchema.index({ vendorType: 1, 'address.city': 1, startingPrice: 1 });
+vendorSchema.index({ supportedOccasionKeys: 1, 'address.city': 1 });
 module.exports = mongoose.model('Vendor', vendorSchema);

@@ -1,0 +1,780 @@
+- generic [ref=f7e4]:
+  - banner [ref=f7e5]:
+    - generic [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - link "write-review Write A Review" [ref=f7e10] [cursor=pointer]:
+          - /url: /write-a-review
+          - img "write-review" [ref=f7e11]
+          - generic [ref=f7e12]: Write A Review
+        - generic [ref=f7e13] [cursor=pointer]:
+          - img "download-app" [ref=f7e14]
+          - generic [ref=f7e15]: Download App
+      - generic [ref=f7e16]:
+        - generic [ref=f7e17]: India's Favourite Wedding Planning Platform
+        - generic [ref=f7e19] [cursor=pointer]:
+          - generic [ref=f7e20]: All Cities
+          - generic [ref=f7e21]: 
+    - generic [ref=f7e24]:
+      - link [ref=f7e25] [cursor=pointer]:
+        - /url: /all-wedding
+        - img "wmg logo" [ref=f7e26]
+      - generic [ref=f7e27]:
+        - link "Venues" [ref=f7e29] [cursor=pointer]:
+          - /url: /vendors/all/wedding-venues/
+        - link "Vendors" [ref=f7e31] [cursor=pointer]:
+          - /url: /vendors/all/
+        - link "Photos" [ref=f7e33] [cursor=pointer]:
+          - /url: /photos
+        - link "Real Weddings" [ref=f7e35] [cursor=pointer]:
+          - /url: /real_wedding
+        - link "Blog" [ref=f7e37] [cursor=pointer]:
+          - /url: /blog
+        - link "E-Invites" [ref=f7e39] [cursor=pointer]:
+          - /url: /wedding-invitations
+        - link "Genie" [ref=f7e41] [cursor=pointer]:
+          - /url: /genie
+      - img "search" [ref=f7e43] [cursor=pointer]
+      - generic [ref=f7e44]: Log In
+  - generic [ref=f7e45]:
+    - generic [ref=f7e46]:
+      - img "HeaderImg" [ref=f7e48]
+      - generic [ref=f7e51]:
+        - heading "Your Wedding, Your Way" [level=1] [ref=f7e52]
+        - heading "Find the best wedding vendors with thousands of trusted reviews" [level=2] [ref=f7e53]
+        - generic [ref=f7e54]:
+          - generic [ref=f7e56]:
+            - generic [ref=f7e57]:
+              - generic [ref=f7e58]: Select vendor type
+              - combobox [ref=f7e60]
+            - generic [ref=f7e61] [cursor=pointer]: 
+          - generic [ref=f7e65]:
+            - generic [ref=f7e66]:
+              - generic [ref=f7e67]: Select city
+              - combobox [ref=f7e69]
+            - generic [ref=f7e70] [cursor=pointer]: 
+          - generic [ref=f7e73] [cursor=pointer]: Get Started
+        - generic [ref=f7e74]:
+          - generic [ref=f7e75]: "Popular Searches:"
+          - generic [ref=f7e76]:
+            - link "Wedding Photographers in India |" [ref=f7e77] [cursor=pointer]:
+              - /url: /vendors/all/wedding-photographers
+            - link "Bridal Makeup Artists in India |" [ref=f7e78] [cursor=pointer]:
+              - /url: /vendors/all/bridal-makeup
+            - link "Wedding Cards in India |" [ref=f7e79] [cursor=pointer]:
+              - /url: /vendors/all/wedding-cards
+            - link "Wedding Venues in India" [ref=f7e80] [cursor=pointer]:
+              - /url: /vendors/all/wedding-venues
+      - generic [ref=f7e81]: "Photo Credits : Shutterdown"
+    - generic [ref=f7e83]:
+      - generic [ref=f7e84]: Popular Venue Searches
+      - generic [ref=f7e86]:
+        - generic [ref=f7e88]:
+          - generic [ref=f7e92]:
+            - link [ref=f7e94] [cursor=pointer]:
+              - /url: /vendors/all/wedding-venues/all/wedding-hotels/
+              - img "venue-img" [ref=f7e95]
+            - generic [ref=f7e96]:
+              - link "4 Star & Above Hotels" [ref=f7e97] [cursor=pointer]:
+                - /url: /vendors/all/wedding-venues/all/wedding-hotels/
+              - generic [ref=f7e99]:
+                - link "Mumbai |" [ref=f7e100] [cursor=pointer]:
+                  - /url: /vendors/mumbai/wedding-venues/all/wedding-hotels/
+                - link "Bangalore |" [ref=f7e102] [cursor=pointer]:
+                  - /url: /vendors/bangalore/wedding-venues/all/wedding-hotels/
+                - link "Pune |" [ref=f7e104] [cursor=pointer]:
+                  - /url: /vendors/pune/wedding-venues/all/wedding-hotels/
+              - link "More" [ref=f7e106] [cursor=pointer]:
+                - /url: /vendors/all/wedding-venues/all/wedding-hotels/
+          - generic [ref=f7e111]:
+            - link [ref=f7e113] [cursor=pointer]:
+              - /url: /vendors/all/wedding-venues/all/banquet-hall/
+              - img "venue-img" [ref=f7e114]
+            - generic [ref=f7e115]:
+              - link "Banquet Halls" [ref=f7e116] [cursor=pointer]:
+                - /url: /vendors/all/wedding-venues/all/banquet-hall/
+              - generic [ref=f7e118]:
+                - link "Mumbai |" [ref=f7e119] [cursor=pointer]:
+                  - /url: /vendors/mumbai/wedding-venues/all/banquet-hall/
+                - link "Bangalore |" [ref=f7e121] [cursor=pointer]:
+                  - /url: /vendors/bangalore/wedding-venues/all/banquet-hall/
+                - link "Pune |" [ref=f7e123] [cursor=pointer]:
+                  - /url: /vendors/pune/wedding-venues/all/banquet-hall/
+              - link "More" [ref=f7e125] [cursor=pointer]:
+                - /url: /vendors/all/wedding-venues/all/banquet-hall/
+          - generic [ref=f7e130]:
+            - link [ref=f7e132] [cursor=pointer]:
+              - /url: /vendors/all/wedding-venues/all/marriage-garden-lawns/
+              - img "venue-img" [ref=f7e133]
+            - generic [ref=f7e134]:
+              - link "Marriage Garden / Lawns" [ref=f7e135] [cursor=pointer]:
+                - /url: /vendors/all/wedding-venues/all/marriage-garden-lawns/
+              - generic [ref=f7e137]:
+                - link "Mumbai |" [ref=f7e138] [cursor=pointer]:
+                  - /url: /vendors/mumbai/wedding-venues/all/marriage-garden-lawns/
+                - link "Bangalore |" [ref=f7e140] [cursor=pointer]:
+                  - /url: /vendors/bangalore/wedding-venues/all/marriage-garden-lawns/
+                - link "Pune |" [ref=f7e142] [cursor=pointer]:
+                  - /url: /vendors/pune/wedding-venues/all/marriage-garden-lawns/
+              - link "More" [ref=f7e144] [cursor=pointer]:
+                - /url: /vendors/all/wedding-venues/all/marriage-garden-lawns/
+        - generic [ref=f7e159] [cursor=pointer]: 
+    - generic [ref=f7e161]:
+      - generic [ref=f7e162]: WMG Inhouse Services
+      - generic [ref=f7e163]:
+        - generic [ref=f7e164]:
+          - img "Wedsta" [ref=f7e166]
+          - generic [ref=f7e167]:
+            - generic [ref=f7e168]: Wedsta
+            - generic [ref=f7e169]: WMG At Home, Family Makeup Services
+            - link "Know More" [ref=f7e170] [cursor=pointer]:
+              - /url: /vendors/all/family-makeup
+        - generic [ref=f7e172]:
+          - img "Genie Services" [ref=f7e174]
+          - generic [ref=f7e175]:
+            - generic [ref=f7e176]: Genie Services
+            - generic [ref=f7e177]: Plan your dream wedding in your budget
+            - link "Know More" [ref=f7e178] [cursor=pointer]:
+              - /url: /genie
+        - generic [ref=f7e180]:
+          - img "Venue Booking Service" [ref=f7e182]
+          - generic [ref=f7e183]:
+            - generic [ref=f7e184]: Venue Booking Service
+            - generic [ref=f7e185]: Best Price Guaranteed
+            - link "Know More" [ref=f7e186] [cursor=pointer]:
+              - /url: /genie
+    - generic [ref=f7e188]: Popular Searches
+    - generic [ref=f7e190]:
+      - generic [ref=f7e192]:
+        - link "search-img Bridal Wear" [ref=f7e197] [cursor=pointer]:
+          - /url: vendors/all/bridal-wear/
+          - generic [ref=f7e198]:
+            - img "search-img" [ref=f7e200]
+            - generic [ref=f7e201]: Bridal Wear
+        - link "search-img Bridal Makeup Artists" [ref=f7e206] [cursor=pointer]:
+          - /url: vendors/all/bridal-makeup/
+          - generic [ref=f7e207]:
+            - img "search-img" [ref=f7e209]
+            - generic [ref=f7e210]: Bridal Makeup Artists
+        - link "search-img Photographers" [ref=f7e215] [cursor=pointer]:
+          - /url: vendors/all/wedding-photographers/
+          - generic [ref=f7e216]:
+            - img "search-img" [ref=f7e218]
+            - generic [ref=f7e219]: Photographers
+        - link "search-img Invitations" [ref=f7e224] [cursor=pointer]:
+          - /url: vendors/all/wedding-cards/
+          - generic [ref=f7e225]:
+            - img "search-img" [ref=f7e227]
+            - generic [ref=f7e228]: Invitations
+        - link "search-img Catering Services" [ref=f7e233] [cursor=pointer]:
+          - /url: vendors/all/wedding-catering/
+          - generic [ref=f7e234]:
+            - img "search-img" [ref=f7e236]
+            - generic [ref=f7e237]: Catering Services
+      - generic [ref=f7e241] [cursor=pointer]: 
+    - generic [ref=f7e243]:
+      - generic [ref=f7e244]:
+        - generic [ref=f7e245]: Wedding Categories
+        - link "View all Categories " [ref=f7e246] [cursor=pointer]:
+          - /url: /vendors/all
+          - generic [ref=f7e247]:
+            - text: View all Categories
+            - generic [ref=f7e248]: 
+      - generic [ref=f7e249]:
+        - generic [ref=f7e252] [cursor=pointer]:
+          - generic [ref=f7e254]:
+            - generic [ref=f7e255]:
+              - text: Venues
+              - generic [ref=f7e256]: 
+            - generic [ref=f7e257]: Banquet Halls, Marriage Garden / Lawns, Wedding Resorts, Small Function / Party Halls, Destination Wedding Venues, Kalyana Mandapams, 4 Star & Above Hotels, 5 Star Luxury Hotels, Wedding Farmhouses
+          - img "categoryImg" [ref=f7e259]
+        - generic [ref=f7e262] [cursor=pointer]:
+          - generic [ref=f7e264]:
+            - generic [ref=f7e265]:
+              - text: Photographers
+              - generic [ref=f7e266]: 
+            - generic [ref=f7e267]: Photographers
+          - img "categoryImg" [ref=f7e269]
+        - generic [ref=f7e272] [cursor=pointer]:
+          - generic [ref=f7e274]:
+            - generic [ref=f7e275]:
+              - text: Makeup
+              - generic [ref=f7e276]: 
+            - generic [ref=f7e277]: Bridal Makeup Artists, Family Makeup
+          - img "categoryImg" [ref=f7e279]
+        - generic [ref=f7e282] [cursor=pointer]:
+          - generic [ref=f7e284]:
+            - generic [ref=f7e285]:
+              - text: Planning & Decor
+              - generic [ref=f7e286]: 
+            - generic [ref=f7e287]: Wedding Planners, Decorators
+          - img "categoryImg" [ref=f7e289]
+        - generic [ref=f7e292] [cursor=pointer]:
+          - generic [ref=f7e294]:
+            - generic [ref=f7e295]:
+              - text: Virtual Planning
+              - generic [ref=f7e296]: 
+            - generic [ref=f7e297]: Virtual planning
+          - img "categoryImg" [ref=f7e299]
+        - generic [ref=f7e302] [cursor=pointer]:
+          - generic [ref=f7e304]:
+            - generic [ref=f7e305]:
+              - text: Mehndi
+              - generic [ref=f7e306]: 
+            - generic [ref=f7e307]: Mehendi Artists
+          - img "categoryImg" [ref=f7e309]
+    - generic [ref=f7e311]:
+      - generic [ref=f7e312]:
+        - generic [ref=f7e313]: Download The WedMeGood Mobile App Today!
+        - generic [ref=f7e314]:
+          - generic [ref=f7e315]:
+            - img "icons" [ref=f7e317]
+            - generic [ref=f7e318]: Save Wedding Ideas
+          - generic [ref=f7e319]:
+            - img "icons" [ref=f7e321]
+            - generic [ref=f7e322]: Shortlist Vendors
+          - generic [ref=f7e323]:
+            - img "icons" [ref=f7e325]
+            - generic [ref=f7e326]: Get Free Wedding Checklist
+        - generic [ref=f7e329]:
+          - heading "You will receive an SMS with a link to download the App" [level=5] [ref=f7e330]
+          - generic [ref=f7e331]:
+            - generic [ref=f7e332]:
+              - generic [ref=f7e333]:
+                - generic [ref=f7e335]:
+                  - generic [ref=f7e336]:
+                    - combobox "Phone number country" [ref=f7e337] [cursor=pointer]:
+                      - option "International"
+                      - option "Afghanistan"
+                      - option "Åland Islands"
+                      - option "Albania"
+                      - option "Algeria"
+                      - option "American Samoa"
+                      - option "Andorra"
+                      - option "Angola"
+                      - option "Anguilla"
+                      - option "Antigua and Barbuda"
+                      - option "Argentina"
+                      - option "Armenia"
+                      - option "Aruba"
+                      - option "Ascension Island"
+                      - option "Australia"
+                      - option "Austria"
+                      - option "Azerbaijan"
+                      - option "Bahamas"
+                      - option "Bahrain"
+                      - option "Bangladesh"
+                      - option "Barbados"
+                      - option "Belarus"
+                      - option "Belgium"
+                      - option "Belize"
+                      - option "Benin"
+                      - option "Bermuda"
+                      - option "Bhutan"
+                      - option "Bolivia"
+                      - option "Bonaire, Sint Eustatius and Saba"
+                      - option "Bosnia and Herzegovina"
+                      - option "Botswana"
+                      - option "Brazil"
+                      - option "British Indian Ocean Territory"
+                      - option "Brunei Darussalam"
+                      - option "Bulgaria"
+                      - option "Burkina Faso"
+                      - option "Burma"
+                      - option "Burundi"
+                      - option "Cambodia"
+                      - option "Cameroon"
+                      - option "Canada"
+                      - option "Cape Verde"
+                      - option "Cayman Islands"
+                      - option "Central African Republic"
+                      - option "Chad"
+                      - option "Chile"
+                      - option "China"
+                      - option "Christmas Island"
+                      - option "Cocos (Keeling) Islands"
+                      - option "Colombia"
+                      - option "Comoros"
+                      - option "Congo"
+                      - option "Congo, Democratic Republic of the"
+                      - option "Cook Islands"
+                      - option "Costa Rica"
+                      - option "Cote d'Ivoire"
+                      - option "Croatia"
+                      - option "Cuba"
+                      - option "Curaçao"
+                      - option "Cyprus"
+                      - option "Czech Republic"
+                      - option "Denmark"
+                      - option "Djibouti"
+                      - option "Dominica"
+                      - option "Dominican Republic"
+                      - option "Ecuador"
+                      - option "Egypt"
+                      - option "El Salvador"
+                      - option "Equatorial Guinea"
+                      - option "Eritrea"
+                      - option "Estonia"
+                      - option "Ethiopia"
+                      - option "Falkland Islands"
+                      - option "Faroe Islands"
+                      - option "Federated States of Micronesia"
+                      - option "Fiji"
+                      - option "Finland"
+                      - option "France"
+                      - option "French Guiana"
+                      - option "French Polynesia"
+                      - option "Gabon"
+                      - option "Gambia"
+                      - option "Georgia"
+                      - option "Germany"
+                      - option "Ghana"
+                      - option "Gibraltar"
+                      - option "Greece"
+                      - option "Greenland"
+                      - option "Grenada"
+                      - option "Guadeloupe"
+                      - option "Guam"
+                      - option "Guatemala"
+                      - option "Guernsey"
+                      - option "Guinea"
+                      - option "Guinea-Bissau"
+                      - option "Guyana"
+                      - option "Haiti"
+                      - option "Holy See (Vatican City State)"
+                      - option "Honduras"
+                      - option "Hong Kong"
+                      - option "Hungary"
+                      - option "Iceland"
+                      - option "India" [selected]
+                      - option "Indonesia"
+                      - option "Iran"
+                      - option "Iraq"
+                      - option "Ireland"
+                      - option "Isle of Man"
+                      - option "Israel"
+                      - option "Italy"
+                      - option "Jamaica"
+                      - option "Japan"
+                      - option "Jersey"
+                      - option "Jordan"
+                      - option "Kazakhstan"
+                      - option "Kenya"
+                      - option "Kiribati"
+                      - option "Kosovo"
+                      - option "Kuwait"
+                      - option "Kyrgyzstan"
+                      - option "Laos"
+                      - option "Latvia"
+                      - option "Lebanon"
+                      - option "Lesotho"
+                      - option "Liberia"
+                      - option "Libya"
+                      - option "Liechtenstein"
+                      - option "Lithuania"
+                      - option "Luxembourg"
+                      - option "Macao"
+                      - option "Madagascar"
+                      - option "Malawi"
+                      - option "Malaysia"
+                      - option "Maldives"
+                      - option "Mali"
+                      - option "Malta"
+                      - option "Marshall Islands"
+                      - option "Martinique"
+                      - option "Mauritania"
+                      - option "Mauritius"
+                      - option "Mayotte"
+                      - option "Mexico"
+                      - option "Moldova"
+                      - option "Monaco"
+                      - option "Mongolia"
+                      - option "Montenegro"
+                      - option "Montserrat"
+                      - option "Morocco"
+                      - option "Mozambique"
+                      - option "Namibia"
+                      - option "Nauru"
+                      - option "Nepal"
+                      - option "Netherlands"
+                      - option "New Caledonia"
+                      - option "New Zealand"
+                      - option "Nicaragua"
+                      - option "Niger"
+                      - option "Nigeria"
+                      - option "Niue"
+                      - option "Norfolk Island"
+                      - option "North Korea"
+                      - option "North Macedonia"
+                      - option "Northern Mariana Islands"
+                      - option "Norway"
+                      - option "Oman"
+                      - option "Pakistan"
+                      - option "Palau"
+                      - option "Palestine"
+                      - option "Panama"
+                      - option "Papua New Guinea"
+                      - option "Paraguay"
+                      - option "Peru"
+                      - option "Philippines"
+                      - option "Poland"
+                      - option "Portugal"
+                      - option "Puerto Rico"
+                      - option "Qatar"
+                      - option "Reunion"
+                      - option "Romania"
+                      - option "Russia"
+                      - option "Rwanda"
+                      - option "Saint Barthélemy"
+                      - option "Saint Helena"
+                      - option "Saint Kitts and Nevis"
+                      - option "Saint Lucia"
+                      - option "Saint Martin (French Part)"
+                      - option "Saint Pierre and Miquelon"
+                      - option "Saint Vincent and the Grenadines"
+                      - option "Samoa"
+                      - option "San Marino"
+                      - option "Sao Tome and Principe"
+                      - option "Saudi Arabia"
+                      - option "Senegal"
+                      - option "Serbia"
+                      - option "Seychelles"
+                      - option "Sierra Leone"
+                      - option "Singapore"
+                      - option "Sint Maarten"
+                      - option "Slovakia"
+                      - option "Slovenia"
+                      - option "Solomon Islands"
+                      - option "Somalia"
+                      - option "South Africa"
+                      - option "South Korea"
+                      - option "South Sudan"
+                      - option "Spain"
+                      - option "Sri Lanka"
+                      - option "Sudan"
+                      - option "Suriname"
+                      - option "Svalbard and Jan Mayen"
+                      - option "Swaziland"
+                      - option "Sweden"
+                      - option "Switzerland"
+                      - option "Syria"
+                      - option "Taiwan"
+                      - option "Tajikistan"
+                      - option "Tanzania"
+                      - option "Thailand"
+                      - option "Timor-Leste"
+                      - option "Togo"
+                      - option "Tokelau"
+                      - option "Tonga"
+                      - option "Trinidad and Tobago"
+                      - option "Tristan da Cunha"
+                      - option "Tunisia"
+                      - option "Turkey"
+                      - option "Turkmenistan"
+                      - option "Turks and Caicos Islands"
+                      - option "Tuvalu"
+                      - option "Uganda"
+                      - option "Ukraine"
+                      - option "United Arab Emirates"
+                      - option "United Kingdom"
+                      - option "United States"
+                      - option "Uruguay"
+                      - option "Uzbekistan"
+                      - option "Vanuatu"
+                      - option "Venezuela"
+                      - option "Vietnam"
+                      - option "Virgin Islands, British"
+                      - option "Virgin Islands, U.S."
+                      - option "Wallis and Futuna"
+                      - option "Western Sahara"
+                      - option "Yemen"
+                      - option "Zambia"
+                      - option "Zimbabwe"
+                    - img "India" [ref=f7e339]
+                  - textbox "Enter your mobile number" [ref=f7e341]: "+91"
+                - button "Download the App" [ref=f7e344] [cursor=pointer]
+              - iframe [ref=f7e347]:
+                - generic [ref=f12e6]:
+                  - text: protected by
+                  - strong [ref=f12e7]: reCAPTCHA
+            - generic [ref=f7e350]:
+              - link "" [ref=f7e351] [cursor=pointer]:
+                - /url: https://wedmegood.app.link/bottom_web_icons
+              - link "" [ref=f7e354] [cursor=pointer]:
+                - /url: https://wedmegood.app.link/bottom_web_icons
+      - img "download-app" [ref=f7e360]
+    - generic [ref=f7e361]: Real Wedding Stories
+    - generic [ref=f7e363]:
+      - generic [ref=f7e365]:
+        - link "real-wedding-img Priya and Shrill This Breezy Wedding Brought Indian Traditions To The Tropical Shores Of Hawaii! 24 May 2026" [ref=f7e370] [cursor=pointer]:
+          - /url: /real_wedding/detail/priya-and-shrill-hawaii-gujarati-wedding-4903
+          - generic [ref=f7e372]:
+            - img "real-wedding-img" [ref=f7e374]
+            - generic [ref=f7e375]:
+              - generic [ref=f7e376]: Priya and Shrill
+              - paragraph [ref=f7e378]: This Breezy Wedding Brought Indian Traditions To The Tropical Shores Of Hawaii!
+              - generic [ref=f7e379]: 24 May 2026
+        - link "real-wedding-img Rakshitha and Akarsh A Fractured Foot Couldn't Stop This Bride From Serving One Gorgeous Look After Another! 20 April 2026" [ref=f7e384] [cursor=pointer]:
+          - /url: /real_wedding/detail/rakshitha-and-akarsh-bangalore-kannada-wedding-4902
+          - generic [ref=f7e386]:
+            - img "real-wedding-img" [ref=f7e388]
+            - generic [ref=f7e389]:
+              - generic [ref=f7e390]: Rakshitha and Akarsh
+              - paragraph [ref=f7e392]: A Fractured Foot Couldn't Stop This Bride From Serving One Gorgeous Look After Another!
+              - generic [ref=f7e393]: 20 April 2026
+        - link "real-wedding-img Charuta & Anuraag Intimate Temple Wedding Planned 8000 Miles Away With A Goddess Aesthetic 24 June 2026" [ref=f7e398] [cursor=pointer]:
+          - /url: /real_wedding/detail/charuta-anuraag-uttar-pradesh-wedding-4896
+          - generic [ref=f7e400]:
+            - img "real-wedding-img" [ref=f7e402]
+            - generic [ref=f7e403]:
+              - generic [ref=f7e404]: Charuta & Anuraag
+              - paragraph [ref=f7e406]: Intimate Temple Wedding Planned 8000 Miles Away With A Goddess Aesthetic
+              - generic [ref=f7e407]: 24 June 2026
+      - generic [ref=f7e415] [cursor=pointer]: 
+    - generic [ref=f7e417]: Latest Blogs
+    - generic [ref=f7e419]:
+      - generic [ref=f7e421]:
+        - link "real-wedding-img Serve Looks, Not Just Mithai With These Pataka Outfits This Diwali! Diwali parties are the perfect excuse to bring out the big fashion guns. Think statement sarees, dramatic shararas, sculptural drapes and enough sparkle to rival the fairy lights. Whether youre he... 23 Oct, 2026" [ref=f7e426] [cursor=pointer]:
+          - /url: /blog/serve-looks-not-just-mithai-with-these-pataka-outfits-this-diwali
+          - generic [ref=f7e428]:
+            - img "real-wedding-img" [ref=f7e430]
+            - generic [ref=f7e431]:
+              - generic [ref=f7e432]: Serve Looks, Not Just Mithai With These Pataka Outfits This Diwali!
+              - paragraph [ref=f7e434]: Diwali parties are the perfect excuse to bring out the big fashion guns. Think statement sarees, dramatic shararas, sculptural drapes and enough sparkle to rival the fairy lights. Whether youre he...
+              - generic [ref=f7e435]: 23 Oct, 2026
+        - link "real-wedding-img 70+ Unique Blouse Designs For South Indian Brides! The Kanjeevaram is iconic, the temple jewellery is non-negotiable, the jasmine gajra is already in the wedding moodboard but the blouse? Thats where you can have a little more fun.South Indian bri... 23 Oct, 2026" [ref=f7e440] [cursor=pointer]:
+          - /url: /blog/30-unique-blouse-designs-for-south-indian-bride1s
+          - generic [ref=f7e442]:
+            - img "real-wedding-img" [ref=f7e444]
+            - generic [ref=f7e445]:
+              - generic [ref=f7e446]: 70+ Unique Blouse Designs For South Indian Brides!
+              - paragraph [ref=f7e448]: The Kanjeevaram is iconic, the temple jewellery is non-negotiable, the jasmine gajra is already in the wedding moodboard but the blouse? Thats where you can have a little more fun.South Indian bri...
+              - generic [ref=f7e449]: 23 Oct, 2026
+        - link "real-wedding-img This Breezy Wedding Brought Indian Traditions To The Tropical Shores Of Hawaii! A Hawaiian paradise, a love story that began on a South Asian dating app, and wedding celebrations that brought Indian traditions to the shores of Maui! Priya and Shrill's wedding at The Ritz-Carlto... 22 Oct, 2026" [ref=f7e454] [cursor=pointer]:
+          - /url: /blog/this-breezy-wedding-brought-indian-traditions-to-the-tropical-shores-of-hawaii
+          - generic [ref=f7e456]:
+            - img "real-wedding-img" [ref=f7e458]
+            - generic [ref=f7e459]:
+              - generic [ref=f7e460]: This Breezy Wedding Brought Indian Traditions To The Tropical Shores Of Hawaii!
+              - paragraph [ref=f7e462]: A Hawaiian paradise, a love story that began on a South Asian dating app, and wedding celebrations that brought Indian traditions to the shores of Maui! Priya and Shrill's wedding at The Ritz-Carlto...
+              - generic [ref=f7e463]: 22 Oct, 2026
+      - generic [ref=f7e471] [cursor=pointer]: 
+    - generic [ref=f7e473]: Gallery to Look for
+    - generic [ref=f7e475]:
+      - generic [ref=f7e477]:
+        - link "wmg-img Bridal Lehenga" [ref=f7e482] [cursor=pointer]:
+          - /url: /photos/bridal-lehenga
+          - generic [ref=f7e483]:
+            - img "wmg-img" [ref=f7e485]
+            - generic [ref=f7e486]: Bridal Lehenga
+        - link "wmg-img Outfits" [ref=f7e492] [cursor=pointer]:
+          - /url: /photos/wedding-dresses
+          - generic [ref=f7e493]:
+            - img "wmg-img" [ref=f7e495]
+            - generic [ref=f7e496]: Outfits
+        - link "wmg-img Blouse Designs" [ref=f7e502] [cursor=pointer]:
+          - /url: /photos/blouse-designs
+          - generic [ref=f7e503]:
+            - img "wmg-img" [ref=f7e505]
+            - generic [ref=f7e506]: Blouse Designs
+        - link "wmg-img Wedding Sarees" [ref=f7e512] [cursor=pointer]:
+          - /url: /photos/wedding-sarees
+          - generic [ref=f7e513]:
+            - img "wmg-img" [ref=f7e515]
+            - generic [ref=f7e516]: Wedding Sarees
+        - link "wmg-img Mehndi Designs" [ref=f7e522] [cursor=pointer]:
+          - /url: /photos/mehndi-designs
+          - generic [ref=f7e523]:
+            - img "wmg-img" [ref=f7e525]
+            - generic [ref=f7e526]: Mehndi Designs
+      - generic [ref=f7e541] [cursor=pointer]: 
+    - generic [ref=f7e543]: Featured Vendors
+    - generic [ref=f7e545]:
+      - generic [ref=f7e547]:
+        - link "wmg-img  5.0 Dj Sunny K Gera DJ,Malviya Nagar ₹ 80000 onwards" [ref=f7e552] [cursor=pointer]:
+          - /url: /profile/Dj-Sunny-K-Gera-365757
+          - generic [ref=f7e553]:
+            - generic [ref=f7e554]:
+              - img "wmg-img" [ref=f7e555]
+              - generic [ref=f7e557]:
+                - generic [ref=f7e558]: 
+                - text: "5.0"
+            - generic [ref=f7e559]: Dj Sunny K Gera
+            - generic [ref=f7e560]:
+              - text: DJ
+              - generic [ref=f7e561]: ",Malviya Nagar"
+            - generic [ref=f7e562]: ₹ 80000 onwards
+        - link "wmg-img  5.0 The Leela Ashtamudi A Raviz Hotel Wedding Venues ₹ 1800 onwards per plate" [ref=f7e567] [cursor=pointer]:
+          - /url: /wedding-venues/The-Leela-Ashtamudi-A-Raviz-Hotel-10124
+          - generic [ref=f7e568]:
+            - generic [ref=f7e569]:
+              - img "wmg-img" [ref=f7e570]
+              - generic [ref=f7e572]:
+                - generic [ref=f7e573]: 
+                - text: "5.0"
+            - generic [ref=f7e574]: The Leela Ashtamudi A Raviz Hotel
+            - generic [ref=f7e575]: Wedding Venues
+            - generic [ref=f7e576]: ₹ 1800 onwards per plate
+        - link "wmg-img  5.0 Pushkara Resort and Spa (Pure Veg) Wedding Venues ₹ 2800 onwards per plate" [ref=f7e581] [cursor=pointer]:
+          - /url: /wedding-venues/Pushkara-resort-and-spa-4305209
+          - generic [ref=f7e582]:
+            - generic [ref=f7e583]:
+              - img "wmg-img" [ref=f7e584]
+              - generic [ref=f7e586]:
+                - generic [ref=f7e587]: 
+                - text: "5.0"
+            - generic [ref=f7e588]: Pushkara Resort and Spa (Pure Veg)
+            - generic [ref=f7e589]: Wedding Venues
+            - generic [ref=f7e590]: ₹ 2800 onwards per plate
+        - link "wmg-img  5.0 Divafy by Divya Bridal Makeup Artists,Rajouri Garden ₹ 30,000" [ref=f7e595] [cursor=pointer]:
+          - /url: /profile/Divafy-by-Divya-966053
+          - generic [ref=f7e596]:
+            - generic [ref=f7e597]:
+              - img "wmg-img" [ref=f7e598]
+              - generic [ref=f7e600]:
+                - generic [ref=f7e601]: 
+                - text: "5.0"
+            - generic [ref=f7e602]: Divafy by Divya
+            - generic [ref=f7e603]:
+              - text: Bridal Makeup Artists
+              - generic [ref=f7e604]: ",Rajouri Garden"
+            - generic [ref=f7e605]: ₹ 30,000
+      - generic [ref=f7e622] [cursor=pointer]: 
+  - contentinfo [ref=f7e624]:
+    - generic [ref=f7e625]:
+      - generic [ref=f7e626]:
+        - generic [ref=f7e627]:
+          - generic [ref=f7e628]:
+            - paragraph [ref=f7e629]: WedMeGood - Your Personal Wedding Planner
+            - paragraph [ref=f7e630]: Plan your wedding with Us
+            - paragraph [ref=f7e631]: WedMeGood is an Indian Wedding Planning Website and app where you can find the best wedding vendors, with prices and reviews at the click of a button. Whether you are looking to hire wedding planners in India, or looking for the top photographers, or just some ideas and inspiration for your wedding. WedMeGood can help you solve your wedding planning woes through its unique features. With a checklist, detailed vendor list, inspiration gallery and blog - you won't need to spend hours planning a wedding anymore.
+          - generic [ref=f7e632]:
+            - generic [ref=f7e633]:
+              - generic [ref=f7e634]:
+                - paragraph [ref=f7e635]: Contact us to get best deals
+                - generic [ref=f7e636]:
+                  - generic [ref=f7e637]:
+                    - paragraph [ref=f7e638]: For Vendors
+                    - link "vendors@wedmegood.com" [ref=f7e639] [cursor=pointer]:
+                      - /url: "mailto:vendors@wedmegood.com]}"
+                    - paragraph [ref=f7e640]: 0124-6812346
+                  - generic [ref=f7e642]:
+                    - paragraph [ref=f7e643]: For Users
+                    - link "info@wedmegood.com" [ref=f7e644] [cursor=pointer]:
+                      - /url: "mailto:info@wedmegood.com]}"
+                    - paragraph [ref=f7e645]: 0124-6812345
+              - paragraph [ref=f7e646]: Registered Address
+              - paragraph [ref=f7e648]: 12th Floor, Magnum Global Park, 91 Springboard Business Hub Pvt Ltd, Golf Course Extension Road, Sector-58, Gurgaon, Haryana, India, 122011
+              - paragraph [ref=f7e649]: Get Latest Blog Alerts
+              - generic [ref=f7e651]:
+                - textbox "Email*" [ref=f7e652]
+                - button "Submit" [ref=f7e653] [cursor=pointer]
+              - button "Register as a Vendor" [ref=f7e655] [cursor=pointer]
+            - generic [ref=f7e656]:
+              - generic [ref=f7e657]: "Follow us on:"
+              - link " facebook" [ref=f7e658] [cursor=pointer]:
+                - /url: https://www.facebook.com/wedmegood
+                - generic [ref=f7e659]: 
+                - generic [ref=f7e660]: facebook
+              - link " twitter" [ref=f7e661] [cursor=pointer]:
+                - /url: https://twitter.com/wedmegood
+                - generic [ref=f7e662]: 
+                - generic [ref=f7e663]: twitter
+              - link " pinterest" [ref=f7e664] [cursor=pointer]:
+                - /url: https://www.pinterest.com/wedmegood/
+                - generic [ref=f7e665]: 
+                - generic [ref=f7e666]: pinterest
+              - link " instagram" [ref=f7e667] [cursor=pointer]:
+                - /url: https://www.instagram.com/wedmegood/
+                - generic [ref=f7e668]: 
+                - generic [ref=f7e669]: instagram
+              - link " youtube" [ref=f7e670] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCe96CeIKcoexrE3dtAuBKxA
+                - generic [ref=f7e671]: 
+                - generic [ref=f7e672]: youtube
+            - generic [ref=f7e673]:
+              - generic [ref=f7e674]: Get The WedMeGood App
+              - link [ref=f7e676] [cursor=pointer]:
+                - /url: https://apps.apple.com/in/app/wedmegood-wedding-planner/id1043872365
+                - img "Download on the App Store" [ref=f7e677]
+              - link [ref=f7e679] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.wedmegood.planner
+                - img "Download on the Google Play" [ref=f7e680]
+        - generic [ref=f7e681]:
+          - generic [ref=f7e682]:
+            - paragraph [ref=f7e683]: Start Planning
+            - link "Search By Vendor" [ref=f7e684] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/vendors/
+            - link "Search By City" [ref=f7e685] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/vendors/
+            - link "Download Our App" [ref=f7e686] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/download-app
+            - link "Top Rated Vendors" [ref=f7e687] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/top-rated
+            - link "Destination Wedding" [ref=f7e688] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/destination-wedding
+          - generic [ref=f7e689]:
+            - paragraph [ref=f7e690]: Wedding Ideas
+            - link "Wedding Blog" [ref=f7e691] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/blog
+            - link "Wedding Inspiration Gallery" [ref=f7e692] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos
+            - link "Real Wedding" [ref=f7e693] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/real_wedding
+            - link "Submit Wedding" [ref=f7e694] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/submit-real-wedding
+          - generic [ref=f7e695]:
+            - paragraph [ref=f7e696]: Photo Gallery
+            - link "Bridal Wear" [ref=f7e697] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/bridal-wear
+            - link "Wedding Jewellery" [ref=f7e698] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/wedding-jewellery
+            - link "Bridal Makeup & Hair" [ref=f7e699] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/bridal-makeup
+            - link "Wedding Decor" [ref=f7e700] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/wedding-decor
+            - link "Wedding Photography" [ref=f7e701] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/wedding-photographers
+            - link "Groom Wear" [ref=f7e702] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/groom-wear
+            - link "Invitations & Favors" [ref=f7e703] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/wedding-cards
+            - link "Wedding Accessories" [ref=f7e704] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/wedding-accessories
+            - link "Mehendi Designs" [ref=f7e705] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/photos/mehendi-designs
+          - generic [ref=f7e706]:
+            - paragraph [ref=f7e707]: Home
+            - link "About WedMeGood" [ref=f7e708] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/about_us
+            - link "Careers" [ref=f7e709] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/careers
+            - link "Contact Us" [ref=f7e710] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/contact_us
+            - link "Site Map" [ref=f7e711] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/sitemap
+            - link "Terms & Conditions" [ref=f7e712] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/terms
+            - link "Privacy Policy" [ref=f7e713] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/privacy
+            - link "Cancellation Policy" [ref=f7e714] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/cancellation-refund-policy
+          - generic [ref=f7e715]:
+            - paragraph [ref=f7e716]: Wedding Invitation Maker
+            - link "Wedding Card Designs" [ref=f7e717] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/wedding-invitations/wedding-card-designs
+            - link "Save the Date Templates" [ref=f7e718] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/wedding-invitations/save-the-date-templates
+            - link "Invitation Video Templates" [ref=f7e719] [cursor=pointer]:
+              - /url: https://www.wedmegood.com/wedding-invitations/video-templates
+      - generic [ref=f7e721]:
+        - generic [ref=f7e722]:
+          - generic [ref=f7e723]: © 2026
+          - img "logo" [ref=f7e724]
+        - generic [ref=f7e725]:
+          - link "Terms & Conditions" [ref=f7e726] [cursor=pointer]:
+            - /url: /terms
+          - text: "|"
+          - link "Privacy Policy" [ref=f7e727] [cursor=pointer]:
+            - /url: /privacy
+  - button "Open AI Chat" [ref=f7e728] [cursor=pointer]:
+    - img "AI Chat" [ref=f7e729]

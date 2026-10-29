@@ -1,11 +1,13 @@
 const mongoose = require('mongoose');
 const Vendor = require('../models/Vendor');
 const { HttpError, asyncHandler, ok } = require('../utils/http');
+const { publicVendor } = require('../utils/demoMedia');
+const { occasionKey, occasionSearchKey } = require('../utils/occasion');
 
 const publicFields = '-password -fcmToken';
 
 const listVendors = asyncHandler(async (req, res) => {
-  const { category, vendorType, city, minPrice, maxPrice, search, page, limit } = req.query;
+  const { category, vendorType, city, minPrice, maxPrice, search, occasion, page, limit } = req.query;
   const filter = {};
   if (vendorType || category) filter.vendorType = vendorType || category;
   if (city) filter['address.city'] = new RegExp(`^${escapeRegex(city)}$`, 'i');
@@ -14,12 +16,24 @@ const listVendors = asyncHandler(async (req, res) => {
     if (minPrice !== undefined) filter.startingPrice.$gte = minPrice;
     if (maxPrice !== undefined) filter.startingPrice.$lte = maxPrice;
   }
-  if (search) filter.$or = ['businessName', 'description', 'vendorType'].map((field) => ({ [field]: new RegExp(escapeRegex(search), 'i') }));
+  const searchedOccasion = !occasion && search ? occasionSearchKey(search) : null;
+  if (search && !searchedOccasion) filter.$or = ['businessName', 'description', 'vendorType'].map((field) => ({ [field]: new RegExp(escapeRegex(search), 'i') }));
+  const key = occasion ? occasionKey(occasion) : searchedOccasion;
+  if (key) filter.$and = [{ $or: [
+    { supportedOccasionKeys: key }, { acceptsCustomOccasions: true },
+    { acceptsCustomOccasions: { $exists: false } },
+  ] }];
   const [vendors, total] = await Promise.all([
-    Vendor.find(filter).select(publicFields).sort({ rating: -1, _id: 1 }).skip((page - 1) * limit).limit(limit),
+    key ? Vendor.aggregate([
+      { $match: filter },
+      { $addFields: { occasionRank: { $cond: [{ $in: [key, { $ifNull: ['$supportedOccasionKeys', []] }] }, 0, 1] } } },
+      { $sort: { occasionRank: 1, rating: -1, _id: 1 } },
+      { $skip: (page - 1) * limit }, { $limit: limit },
+      { $project: { password: 0, fcmToken: 0, occasionRank: 0 } },
+    ]) : Vendor.find(filter).select(publicFields).sort({ rating: -1, _id: 1 }).skip((page - 1) * limit).limit(limit),
     Vendor.countDocuments(filter),
   ]);
-  ok(res, 'Vendors retrieved', { vendors, total, page, limit });
+  ok(res, 'Vendors retrieved', { vendors: vendors.map((vendor) => publicVendor(req, vendor)), total, page, limit, matchedOccasion: occasion || (searchedOccasion ? search : null) });
 });
 
 function escapeRegex(value) { return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
@@ -28,7 +42,12 @@ const getVendor = asyncHandler(async (req, res) => {
   if (!mongoose.isValidObjectId(req.params.id)) throw new HttpError(400, 'Invalid vendor ID');
   const vendor = await Vendor.findById(req.params.id).select(publicFields);
   if (!vendor) throw new HttpError(404, 'Vendor not found');
-  ok(res, 'Vendor retrieved', vendor);
+  const data = publicVendor(req, vendor);
+  if (req.query.occasion) {
+    const key = occasionKey(req.query.occasion);
+    data.services.sort((a, b) => Number(b.occasionKeys?.includes(key) || !b.occasionKeys?.length) - Number(a.occasionKeys?.includes(key) || !a.occasionKeys?.length));
+  }
+  ok(res, 'Vendor retrieved', data);
 });
 
 const updateProfile = asyncHandler(async (req, res) => {

@@ -1,0 +1,76 @@
+- iframe [ref=f19e2]:
+  - generic "Evently interactive mobile design" [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - banner [ref=f20e4]:
+        - button "Evently home" [ref=f20e5] [cursor=pointer]: evently
+        - button "Change city" [ref=f20e9] [cursor=pointer]: Pune
+      - main [ref=f20e15]:
+        - paragraph [ref=f20e16]: Little moments. Big celebrations.
+        - heading "Life’s best moments, beautifully planned." [level=1] [ref=f20e17]: Life’s best moments,beautifully planned.
+        - paragraph [ref=f20e18]: The right people for whatever you’re celebrating.
+        - generic [ref=f20e19]:
+          - textbox "Search occasions, services or vendors" [ref=f20e23]:
+            - /placeholder: Occasion, service or vendor
+          - button "Search" [ref=f20e24] [cursor=pointer]
+        - generic [ref=f20e27]:
+          - img "A candlelit celebration table with flowers" [ref=f20e28]
+          - generic [ref=f20e29]:
+            - paragraph [ref=f20e30]: Your occasion. Your choices.
+            - heading "A whole event. Entirely you." [level=2] [ref=f20e31]: A whole event.Entirely you.
+            - button "Start planning" [ref=f20e32] [cursor=pointer]
+        - generic [ref=f20e36]:
+          - heading "Just one service?" [level=2] [ref=f20e37]
+          - button "View all" [ref=f20e38] [cursor=pointer]
+        - generic [ref=f20e41]:
+          - button [ref=f20e42] [cursor=pointer]
+          - button [ref=f20e46] [cursor=pointer]
+          - button [ref=f20e51] [cursor=pointer]
+          - button [ref=f20e56] [cursor=pointer]
+        - heading "Every reason to celebrate" [level=2] [ref=f20e62]
+        - generic [ref=f20e63]:
+          - button "Wedding" [ref=f20e64] [cursor=pointer]
+          - button "Birthday" [ref=f20e67] [cursor=pointer]
+          - button "Ring ceremony" [ref=f20e71] [cursor=pointer]
+          - button "Corporate" [ref=f20e75] [cursor=pointer]
+          - button "Your occasion" [ref=f20e80] [cursor=pointer]
+        - generic [ref=f20e82]:
+          - heading "Meet your event team" [level=2] [ref=f20e83]
+          - button "Explore" [ref=f20e84] [cursor=pointer]
+        - article [ref=f20e87]:
+          - button "View Amber Events" [ref=f20e88] [cursor=pointer]:
+            - img "Illustrative event planner portfolio" [ref=f20e89]
+            - generic [ref=f20e90]:
+              - generic [ref=f20e91]: Event Planner
+              - heading "Amber Events" [level=3] [ref=f20e93]
+              - generic [ref=f20e97]:
+                - text: Pune
+                - generic [ref=f20e101]: ·
+                - generic [ref=f20e102]: New on Evently
+              - generic [ref=f20e103]:
+                - generic [ref=f20e104]:
+                  - text: From
+                  - strong [ref=f20e105]: ₹35,000
+                - generic [ref=f20e106]: / event
+          - button "Save Amber Events" [ref=f20e107] [cursor=pointer]
+        - article [ref=f20e110]:
+          - button "View Frame & Light Studio" [ref=f20e111] [cursor=pointer]:
+            - img "Illustrative photography portfolio" [ref=f20e112]
+            - generic [ref=f20e113]:
+              - generic [ref=f20e114]: Photography
+              - heading "Frame & Light Studio" [level=3] [ref=f20e116]
+              - generic [ref=f20e120]:
+                - text: Pune
+                - generic [ref=f20e124]: ·
+                - generic [ref=f20e125]: New on Evently
+              - generic [ref=f20e126]:
+                - generic [ref=f20e127]:
+                  - text: From
+                  - strong [ref=f20e128]: ₹12,000
+                - generic [ref=f20e129]: / day
+          - button "Save Frame & Light Studio" [ref=f20e130] [cursor=pointer]
+        - paragraph [ref=f20e133]: One service or a whole celebration. You choose what belongs.
+      - navigation "Main navigation" [ref=f20e134]:
+        - button "Explore" [ref=f20e135] [cursor=pointer]
+        - button "Events" [ref=f20e139] [cursor=pointer]
+        - button "Saved" [ref=f20e142] [cursor=pointer]
+        - button "You" [ref=f20e145] [cursor=pointer]

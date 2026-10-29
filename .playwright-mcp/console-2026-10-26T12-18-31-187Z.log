@@ -1,0 +1,3 @@
+[    1133ms] [LOG] ✅ Forwarded to GA4: gatsby-route-change {event: gatsby-route-change, gtm.uniqueEventId: 15, __fromGA4Forwarder: true} @ :1
+[    1646ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://ipapi.co/json:0
+[    6004ms] [LOG] ✅ Forwarded to GA4: gtm.load {event: gtm.load, gtm.uniqueEventId: 27, __fromGA4Forwarder: true} @ :1

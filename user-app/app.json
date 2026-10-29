@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Evently",
+    "slug": "evently-customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F8FAFC",
+    "scheme": [
+      "eventlycustomer",
+      "com.anonymous.eventlycustomer",
+      "com.anonymous.evently-customer"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.anonymous.evently-customer"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2417A9",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.eventlycustomer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker",
+      "expo-font",
+      "expo-apple-authentication",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "backgroundColor": "#F8FAFC"
+        }
+      ],
+      "expo-build-properties"
+    ]
+  }
+}

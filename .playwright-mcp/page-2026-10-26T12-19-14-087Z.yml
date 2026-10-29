@@ -1,0 +1,1498 @@
+- generic [ref=f6e2]:
+  - banner [ref=f6e3]:
+    - generic [ref=f6e4]:
+      - link "Homepage" [ref=f6e6] [cursor=pointer]:
+        - /url: https://www.tagvenue.com
+      - navigation "Browse spaces" [ref=f6e21]:
+        - button "Browse spaces" [ref=f6e22] [cursor=pointer]
+      - navigation [ref=f6e24]:
+        - list [ref=f6e25]:
+          - listitem [ref=f6e26]:
+            - link "Log in" [ref=f6e27] [cursor=pointer]:
+              - /url: /login
+          - listitem
+          - listitem
+          - listitem
+          - listitem [ref=f6e30]:
+            - link "List your space" [ref=f6e31] [cursor=pointer]:
+              - /url: /page/list-your-venue
+          - listitem
+  - generic [ref=f6e35]:
+    - img "Find and book venues for any event imaginable" [ref=f6e36]
+    - generic [ref=f6e38]:
+      - generic [ref=f6e39]: Over 22K venues
+      - generic [ref=f6e40]: ·
+      - generic [ref=f6e41]: Trusted by 1M+ customers
+    - heading "Find and book venues for any event imaginable" [level=1] [ref=f6e42]
+    - generic [ref=f6e43]:
+      - generic [ref=f6e44]:
+        - generic [ref=f6e45]: Event type
+        - textbox "Event type" [ref=f6e49]:
+          - /placeholder: What are you planning?
+      - generic [ref=f6e50]:
+        - generic [ref=f6e51]: Guests
+        - spinbutton "Guests" [ref=f6e53]
+      - generic [ref=f6e54]:
+        - generic [ref=f6e55]: Location
+        - textbox "Location" [ref=f6e57]:
+          - /placeholder: Event location
+          - text: London
+      - button "Search" [ref=f6e58] [cursor=pointer]
+  - main [ref=f6e59]:
+    - generic [ref=f6e60]:
+      - heading "Discover top event spaces across the UK" [level=2] [ref=f6e61]
+      - generic [ref=f6e62]:
+        - generic [ref=f6e64]:
+          - generic [ref=f6e66]:
+            - link "London Make it happen in the capital" [ref=f6e68] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/london
+              - text: London
+              - generic [ref=f6e69]: Make it happen in the capital
+            - generic [ref=f6e70]: 10746 venues
+          - generic [ref=f6e72]:
+            - link "Manchester Business and culture by the docks" [ref=f6e74] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/manchester
+              - text: Manchester
+              - generic [ref=f6e75]: Business and culture by the docks
+            - generic [ref=f6e76]: 1193 venues
+          - generic [ref=f6e78]:
+            - link "Birmingham Second city, first class event venues" [ref=f6e80] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/birmingham
+              - text: Birmingham
+              - generic [ref=f6e81]: Second city, first class event venues
+            - generic [ref=f6e82]: 854 venues
+          - generic [ref=f6e84]:
+            - link "Edinburgh Beauty and heritage in Scotland's capital" [ref=f6e86] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/edinburgh
+              - text: Edinburgh
+              - generic [ref=f6e87]: Beauty and heritage in Scotland's capital
+            - generic [ref=f6e88]: 458 venues
+          - generic [ref=f6e90]:
+            - link "Glasgow Culture and character along the River Clyde" [ref=f6e92] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/glasgow
+              - text: Glasgow
+              - generic [ref=f6e93]: Culture and character along the River Clyde
+            - generic [ref=f6e94]: 411 venues
+          - generic [ref=f6e96]:
+            - link "Liverpool The very best event spaces of Merseyside" [ref=f6e98] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/liverpool
+              - text: Liverpool
+              - generic [ref=f6e99]: The very best event spaces of Merseyside
+            - generic [ref=f6e100]: 390 venues
+          - generic [ref=f6e102]:
+            - link "Leeds Top event venues in the heart of Yorkshire" [ref=f6e104] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/leeds
+              - text: Leeds
+              - generic [ref=f6e105]: Top event venues in the heart of Yorkshire
+            - generic [ref=f6e106]: 718 venues
+          - generic [ref=f6e108]:
+            - link "Bristol History and creativity in the West Country" [ref=f6e110] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/bristol
+              - text: Bristol
+              - generic [ref=f6e111]: History and creativity in the West Country
+            - generic [ref=f6e112]: 460 venues
+          - generic [ref=f6e114]:
+            - link "Newcastle Discover elegant spots for your event" [ref=f6e116] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/newcastle
+              - text: Newcastle
+              - generic [ref=f6e117]: Discover elegant spots for your event
+            - generic [ref=f6e118]: 199 venues
+          - generic [ref=f6e120]:
+            - link "Nottingham Picturesque spaces rich in culture" [ref=f6e122] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/nottingham
+              - text: Nottingham
+              - generic [ref=f6e123]: Picturesque spaces rich in culture
+            - generic [ref=f6e124]: 191 venues
+          - generic [ref=f6e126]:
+            - link "Brighton Fun and frolic in seaside spots" [ref=f6e128] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/brighton
+              - text: Brighton
+              - generic [ref=f6e129]: Fun and frolic in seaside spots
+            - generic [ref=f6e130]: 260 venues
+          - generic [ref=f6e132]:
+            - link "Cardiff An event to remember at these Welsh venues" [ref=f6e134] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/cardiff
+              - text: Cardiff
+              - generic [ref=f6e135]: An event to remember at these Welsh venues
+            - generic [ref=f6e136]: 165 venues
+          - generic [ref=f6e138]:
+            - link "Sheffield Venues that take your breath away" [ref=f6e140] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/sheffield
+              - text: Sheffield
+              - generic [ref=f6e141]: Venues that take your breath away
+            - generic [ref=f6e142]: 171 venues
+          - generic [ref=f6e144]:
+            - link "Leicester Discover the best space for your event in Leicester!" [ref=f6e146] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/leicester
+              - text: Leicester
+              - generic [ref=f6e147]: Discover the best space for your event in Leicester!
+            - generic [ref=f6e148]: 86 venues
+          - generic [ref=f6e150]:
+            - link "Reading Unique spaces in gorgeous Berkshire" [ref=f6e152] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/reading
+              - text: Reading
+              - generic [ref=f6e153]: Unique spaces in gorgeous Berkshire
+            - generic [ref=f6e154]: 94 venues
+          - generic [ref=f6e156]:
+            - link "York Claim your venue before the ghosts and Vikings do!" [ref=f6e158] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/york
+              - text: York
+              - generic [ref=f6e159]: Claim your venue before the ghosts and Vikings do!
+            - generic [ref=f6e160]: 128 venues
+          - generic [ref=f6e162]:
+            - link "Oxford Beautiful venues filled with history" [ref=f6e164] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/oxford
+              - text: Oxford
+              - generic [ref=f6e165]: Beautiful venues filled with history
+            - generic [ref=f6e166]: 123 venues
+          - generic [ref=f6e168]:
+            - link "Cambridge Unique and beautiful venues for hire" [ref=f6e170] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/cambridge
+              - text: Cambridge
+              - generic [ref=f6e171]: Unique and beautiful venues for hire
+            - generic [ref=f6e172]: 111 venues
+          - generic [ref=f6e174]:
+            - link "Milton Keynes Unique locations to bring your celebration alive" [ref=f6e176] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/milton-keynes
+              - text: Milton Keynes
+              - generic [ref=f6e177]: Unique locations to bring your celebration alive
+            - generic [ref=f6e178]: 47 venues
+          - generic [ref=f6e180]:
+            - link "Bath Atmospheric spaces in Somerset's grandest city" [ref=f6e182] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/bath
+              - text: Bath
+              - generic [ref=f6e183]: Atmospheric spaces in Somerset's grandest city
+            - generic [ref=f6e184]: 73 venues
+          - generic [ref=f6e186]:
+            - link "Stockport Charming venues for an eventful occasion" [ref=f6e188] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/stockport
+              - text: Stockport
+              - generic [ref=f6e189]: Charming venues for an eventful occasion
+            - generic [ref=f6e190]: 1054 venues
+          - generic [ref=f6e192]:
+            - link "Bradford Top event venues in West Yorkshire" [ref=f6e194] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/bradford
+              - text: Bradford
+              - generic [ref=f6e195]: Top event venues in West Yorkshire
+            - generic [ref=f6e196]: 563 venues
+          - generic [ref=f6e198]:
+            - link "Wolverhampton Lovely spaces for your event in central England" [ref=f6e200] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/wolverhampton
+              - text: Wolverhampton
+              - generic [ref=f6e201]: Lovely spaces for your event in central England
+            - generic [ref=f6e202]: 54 venues
+          - generic [ref=f6e204]:
+            - link "Coventry Charming historic venues for every event" [ref=f6e206] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/coventry
+              - text: Coventry
+              - generic [ref=f6e207]: Charming historic venues for every event
+            - generic [ref=f6e208]: 76 venues
+          - generic [ref=f6e210]:
+            - link "Bournemouth Explore top Bournemouth venues for any occasion" [ref=f6e212] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/bournemouth
+              - text: Bournemouth
+              - generic [ref=f6e213]: Explore top Bournemouth venues for any occasion
+            - generic [ref=f6e214]: 80 venues
+          - generic [ref=f6e216]:
+            - link "Chester Browse and book the city’s best spaces!" [ref=f6e218] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/chester
+              - text: Chester
+              - generic [ref=f6e219]: Browse and book the city’s best spaces!
+            - generic [ref=f6e220]: 53 venues
+          - generic [ref=f6e222]:
+            - link "Southampton Browse top picks for parties, meetings and more in Southampton" [ref=f6e224] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/southampton
+              - text: Southampton
+              - generic [ref=f6e225]: Browse top picks for parties, meetings and more in Southampton
+            - generic [ref=f6e226]: 82 venues
+          - generic [ref=f6e228]:
+            - link "Wirral Top event spaces for any occasion" [ref=f6e230] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/wirral
+              - text: Wirral
+              - generic [ref=f6e231]: Top event spaces for any occasion
+            - generic [ref=f6e232]: 403 venues
+          - generic [ref=f6e234]:
+            - link "Watford Jump in and find your new favourite space" [ref=f6e236] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/watford
+              - text: Watford
+              - generic [ref=f6e237]: Jump in and find your new favourite space
+            - generic [ref=f6e238]: 46 venues
+          - generic [ref=f6e240]:
+            - link "Belfast Explore spaces for parties, dinners & more" [ref=f6e242] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/belfast
+              - text: Belfast
+              - generic [ref=f6e243]: Explore spaces for parties, dinners & more
+            - generic [ref=f6e244]: 84 venues
+          - generic [ref=f6e246]:
+            - link "Solihull Venues for events that impress" [ref=f6e248] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/solihull
+              - text: Solihull
+              - generic [ref=f6e249]: Venues for events that impress
+            - generic [ref=f6e250]: 763 venues
+          - generic [ref=f6e252]:
+            - link "Chelmsford Breathtaking venues in a rural setting" [ref=f6e254] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/chelmsford
+              - text: Chelmsford
+              - generic [ref=f6e255]: Breathtaking venues in a rural setting
+            - generic [ref=f6e256]: 95 venues
+          - generic [ref=f6e258]:
+            - link "Walsall Create the vibe you want at these venues!" [ref=f6e260] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/walsall
+              - text: Walsall
+              - generic [ref=f6e261]: Create the vibe you want at these venues!
+            - generic [ref=f6e262]: 84 venues
+          - generic [ref=f6e264]:
+            - link "Harrogate Postcard-worthy venues for your next celebration" [ref=f6e266] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/harrogate
+              - text: Harrogate
+              - generic [ref=f6e267]: Postcard-worthy venues for your next celebration
+            - generic [ref=f6e268]: 324 venues
+          - generic [ref=f6e270]:
+            - link "Wakefield Find the right spot for your next gathering – book your space today!" [ref=f6e272] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/wakefield
+              - text: Wakefield
+              - generic [ref=f6e273]: Find the right spot for your next gathering – book your space today!
+            - generic [ref=f6e274]: 82 venues
+          - generic [ref=f6e276]:
+            - link "Bolton Browse spaces that bring out the best in your event" [ref=f6e278] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/bolton
+              - text: Bolton
+              - generic [ref=f6e279]: Browse spaces that bring out the best in your event
+            - generic [ref=f6e280]: 101 venues
+          - generic [ref=f6e282]:
+            - link "Cheltenham Browse top unique spots for special events" [ref=f6e284] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/cheltenham
+              - text: Cheltenham
+              - generic [ref=f6e285]: Browse top unique spots for special events
+            - generic [ref=f6e286]: 52 venues
+          - generic [ref=f6e288]:
+            - link "Warrington Book a venue with real local flair" [ref=f6e290] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/warrington
+              - text: Warrington
+              - generic [ref=f6e291]: Book a venue with real local flair
+            - generic [ref=f6e292]: 130 venues
+          - generic [ref=f6e294]:
+            - link "Northampton Discover and book great venues" [ref=f6e296] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/northampton
+              - text: Northampton
+              - generic [ref=f6e297]: Discover and book great venues
+            - generic [ref=f6e298]: 39 venues
+          - generic [ref=f6e300]:
+            - link "Rotherham Find your next gathering place" [ref=f6e302] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/rotherham
+              - text: Rotherham
+              - generic [ref=f6e303]: Find your next gathering place
+            - generic [ref=f6e304]: 192 venues
+          - generic [ref=f6e306]:
+            - link "Oldham Book great spaces offering a true Northern welcome" [ref=f6e308] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/oldham
+              - text: Oldham
+              - generic [ref=f6e309]: Book great spaces offering a true Northern welcome
+            - generic [ref=f6e310]: 846 venues
+          - generic [ref=f6e312]:
+            - link "Preston Book spaces for big parties or close gatherings" [ref=f6e314] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/preston
+              - text: Preston
+              - generic [ref=f6e315]: Book spaces for big parties or close gatherings
+            - generic [ref=f6e316]: 31 venues
+          - generic [ref=f6e318]:
+            - link "Doncaster Browse Doncaster’s best picks" [ref=f6e320] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/doncaster
+              - text: Doncaster
+              - generic [ref=f6e321]: Browse Doncaster’s best picks
+            - generic [ref=f6e322]: 83 venues
+          - generic [ref=f6e324]:
+            - link "Colchester Snag a space that starts conversations" [ref=f6e326] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/colchester
+              - text: Colchester
+              - generic [ref=f6e327]: Snag a space that starts conversations
+            - generic [ref=f6e328]: 32 venues
+          - generic [ref=f6e330]:
+            - link "Norwich Book the perfect place for your next event" [ref=f6e332] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/norwich
+              - text: Norwich
+              - generic [ref=f6e333]: Book the perfect place for your next event
+            - generic [ref=f6e334]: 33 venues
+          - generic [ref=f6e336]:
+            - link "Canterbury Amazing spaces for your next big celebration" [ref=f6e338] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/canterbury
+              - text: Canterbury
+              - generic [ref=f6e339]: Amazing spaces for your next big celebration
+            - generic [ref=f6e340]: 36 venues
+          - generic [ref=f6e342]:
+            - link "Maidstone See top event picks now!" [ref=f6e344] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/maidstone
+              - text: Maidstone
+              - generic [ref=f6e345]: See top event picks now!
+            - generic [ref=f6e346]: 91 venues
+          - generic [ref=f6e348]:
+            - link "Winchester Browse venues and book in minutes" [ref=f6e350] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/winchester
+              - text: Winchester
+              - generic [ref=f6e351]: Browse venues and book in minutes
+            - generic [ref=f6e352]: 197 venues
+          - generic [ref=f6e354]:
+            - link "Windsor Find spaces for any occasion" [ref=f6e356] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/windsor
+              - text: Windsor
+              - generic [ref=f6e357]: Find spaces for any occasion
+            - generic [ref=f6e358]: 35 venues
+          - generic [ref=f6e360]:
+            - link "Guildford Great style, easy booking. Start here." [ref=f6e362] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/guildford
+              - text: Guildford
+              - generic [ref=f6e363]: Great style, easy booking. Start here.
+            - generic [ref=f6e364]: 154 venues
+          - generic [ref=f6e366]:
+            - link "Derby Great spaces, zero hassle" [ref=f6e368] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/derby
+              - text: Derby
+              - generic [ref=f6e369]: Great spaces, zero hassle
+            - generic [ref=f6e370]: 23 venues
+          - generic [ref=f6e372]:
+            - link "Warwick Beautiful and unique spaces to wow your guests" [ref=f6e374] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/warwick
+              - text: Warwick
+              - generic [ref=f6e375]: Beautiful and unique spaces to wow your guests
+            - generic [ref=f6e376]: 167 venues
+          - generic [ref=f6e378]:
+            - link "Plymouth From barns to ballrooms—it’s all here" [ref=f6e380] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/plymouth
+              - text: Plymouth
+              - generic [ref=f6e381]: From barns to ballrooms—it’s all here
+            - generic [ref=f6e382]: 29 venues
+          - generic [ref=f6e384]:
+            - link "Luton Big plans need the right room" [ref=f6e386] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/luton
+              - text: Luton
+              - generic [ref=f6e387]: Big plans need the right room
+            - generic [ref=f6e388]: 9 venues
+          - generic [ref=f6e390]:
+            - link "Wigan Browse spaces made for good times" [ref=f6e392] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/wigan
+              - text: Wigan
+              - generic [ref=f6e393]: Browse spaces made for good times
+            - generic [ref=f6e394]: 128 venues
+          - generic [ref=f6e396]:
+            - link "Sutton Coldfield Book a spot that brings people together" [ref=f6e398] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/sutton-coldfield
+              - text: Sutton Coldfield
+              - generic [ref=f6e399]: Book a spot that brings people together
+            - generic [ref=f6e400]: 149 venues
+          - generic [ref=f6e402]:
+            - link "Huddersfield Easy booking, bold spaces—start here" [ref=f6e404] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/huddersfield
+              - text: Huddersfield
+              - generic [ref=f6e405]: Easy booking, bold spaces—start here
+            - generic [ref=f6e406]: 34 venues
+          - generic [ref=f6e408]:
+            - link "Exeter Book charming outdoor spots" [ref=f6e410] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/exeter
+              - text: Exeter
+              - generic [ref=f6e411]: Book charming outdoor spots
+            - generic [ref=f6e412]: 42 venues
+          - generic [ref=f6e414]:
+            - link "Blackpool See super spaces you’ll love" [ref=f6e416] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/blackpool
+              - text: Blackpool
+              - generic [ref=f6e417]: See super spaces you’ll love
+            - generic [ref=f6e418]: 13 venues
+          - generic [ref=f6e420]:
+            - link "Slough Make your occasion unforgettable" [ref=f6e422] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/slough
+              - text: Slough
+              - generic [ref=f6e423]: Make your occasion unforgettable
+            - generic [ref=f6e424]: 113 venues
+          - generic [ref=f6e426]:
+            - link "Bedford Spaces that put your event on the map" [ref=f6e428] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/bedford
+              - text: Bedford
+              - generic [ref=f6e429]: Spaces that put your event on the map
+            - generic [ref=f6e430]: 74 venues
+          - generic [ref=f6e432]:
+            - link "Birkenhead Check out the best event spaces" [ref=f6e434] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/birkenhead
+              - text: Birkenhead
+              - generic [ref=f6e435]: Check out the best event spaces
+            - generic [ref=f6e436]: 382 venues
+          - generic [ref=f6e438]:
+            - link "Aberdeen Every event starts with one decision" [ref=f6e440] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/aberdeen
+              - text: Aberdeen
+              - generic [ref=f6e441]: Every event starts with one decision
+            - generic [ref=f6e442]: 12 venues
+          - generic [ref=f6e444]:
+            - link "Basingstoke Discover top spaces for your gathering" [ref=f6e446] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/basingstoke
+              - text: Basingstoke
+              - generic [ref=f6e447]: Discover top spaces for your gathering
+            - generic [ref=f6e448]: 19 venues
+          - generic [ref=f6e450]:
+            - link "Rochdale Find the perfect place to gather" [ref=f6e452] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/rochdale
+              - text: Rochdale
+              - generic [ref=f6e453]: Find the perfect place to gather
+            - generic [ref=f6e454]: 92 venues
+          - generic [ref=f6e456]:
+            - link "Brentwood Your perfect event location is here" [ref=f6e458] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/brentwood
+              - text: Brentwood
+              - generic [ref=f6e459]: Your perfect event location is here
+            - generic [ref=f6e460]: 60 venues
+          - generic [ref=f6e462]:
+            - link "Telford Every great event needs the right room" [ref=f6e464] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/telford
+              - text: Telford
+              - generic [ref=f6e465]: Every great event needs the right room
+            - generic [ref=f6e466]: 31 venues
+          - generic [ref=f6e468]:
+            - link "Chichester Where great gatherings begin" [ref=f6e470] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/chichester
+              - text: Chichester
+              - generic [ref=f6e471]: Where great gatherings begin
+            - generic [ref=f6e472]: 55 venues
+          - generic [ref=f6e474]:
+            - link "Swindon Find the right place to gather" [ref=f6e476] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/swindon
+              - text: Swindon
+              - generic [ref=f6e477]: Find the right place to gather
+            - generic [ref=f6e478]: 21 venues
+          - generic [ref=f6e480]:
+            - link "Middlesbrough Turn good plans into great events" [ref=f6e482] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/city/middlesbrough
+              - text: Middlesbrough
+              - generic [ref=f6e483]: Turn good plans into great events
+            - generic [ref=f6e484]: 14 venues
+        - generic [ref=f6e485] [cursor=pointer]
+      - generic [ref=f6e486]:
+        - heading "Global brands and 1M+ users trust Tagvenue" [level=2] [ref=f6e487]
+        - generic [ref=f6e490]:
+          - img "google.svg" [ref=f6e492]
+          - img "facebook.svg" [ref=f6e494]
+          - img "p&g.svg" [ref=f6e496]
+          - img "ebay.svg" [ref=f6e498]
+          - img "netflix.svg" [ref=f6e500]
+          - img "visa.svg" [ref=f6e502]
+      - heading "Popular venues for hire in London" [level=2] [ref=f6e503]
+      - paragraph [ref=f6e505]: Party in private function rooms in pubs and bars of London. Host your events in iconic skyscrapers and world-class conference venues. Discover converted warehouses of Brixton, charming Georgian townhouses in North London and many more!
+      - generic [ref=f6e506]:
+        - generic [ref=f6e508]:
+          - generic [ref=f6e510]:
+            - link "Meeting Rooms in London The best meeting spaces in town, all in one place" [ref=f6e512] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/london
+              - generic [ref=f6e513]: Meeting Rooms in London
+              - generic [ref=f6e514]: The best meeting spaces in town, all in one place
+            - generic [ref=f6e515]: 7627 venues
+          - generic [ref=f6e517]:
+            - link "Party Venues in London Get ready to have the best time of your life!" [ref=f6e519] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/party-venues/london
+              - generic [ref=f6e520]: Party Venues in London
+              - generic [ref=f6e521]: Get ready to have the best time of your life!
+            - generic [ref=f6e522]: 10055 venues
+          - generic [ref=f6e524]:
+            - link "Private Dining Rooms in London Treat yourselves and have a fantastic private feast" [ref=f6e526] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-venues/london
+              - generic [ref=f6e527]: Private Dining Rooms in London
+              - generic [ref=f6e528]: Treat yourselves and have a fantastic private feast
+            - generic [ref=f6e529]: 7884 venues
+          - generic [ref=f6e531]:
+            - link "Pubs with Function Rooms in London Celebrate your special occasion the London way" [ref=f6e533] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/pubs-with-function-rooms/london
+              - generic [ref=f6e534]: Pubs with Function Rooms in London
+              - generic [ref=f6e535]: Celebrate your special occasion the London way
+            - generic [ref=f6e536]: 6275 venues
+          - generic [ref=f6e538]:
+            - link "Christmas Party Venues in London Hundreds of festive venues for your Christmas bash!" [ref=f6e540] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/london
+              - generic [ref=f6e541]: Christmas Party Venues in London
+              - generic [ref=f6e542]: Hundreds of festive venues for your Christmas bash!
+            - generic [ref=f6e543]: 6991 venues
+          - generic [ref=f6e545]:
+            - link "Birthday Party Venues in London We know the best birthday spots in London for you!" [ref=f6e547] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/london
+              - generic [ref=f6e548]: Birthday Party Venues in London
+              - generic [ref=f6e549]: We know the best birthday spots in London for you!
+            - generic [ref=f6e550]: 8182 venues
+          - generic [ref=f6e552]:
+            - link "Small Venues in London London's best-kept secrets are now yours to unveil!" [ref=f6e554] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/small-venues/london
+              - generic [ref=f6e555]: Small Venues in London
+              - generic [ref=f6e556]: London's best-kept secrets are now yours to unveil!
+            - generic [ref=f6e557]: 10746 venues
+          - generic [ref=f6e559]:
+            - link "Photo Studios in London Plan your photo shoot in London's best photo studios" [ref=f6e561] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/photo-studios/london
+              - generic [ref=f6e562]: Photo Studios in London
+              - generic [ref=f6e563]: Plan your photo shoot in London's best photo studios
+            - generic [ref=f6e564]: 765 venues
+          - generic [ref=f6e566]:
+            - link "Rooftop Venues in London Throw an unforgettable rooftop party" [ref=f6e568] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/rooftop-venues/london
+              - generic [ref=f6e569]: Rooftop Venues in London
+              - generic [ref=f6e570]: Throw an unforgettable rooftop party
+            - generic [ref=f6e571]: 207 venues
+          - generic [ref=f6e573]:
+            - link "Conference Venues in London Worldclass conference centres and dozens of unusual spaces" [ref=f6e575] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/london
+              - generic [ref=f6e576]: Conference Venues in London
+              - generic [ref=f6e577]: Worldclass conference centres and dozens of unusual spaces
+            - generic [ref=f6e578]: 3888 venues
+          - generic [ref=f6e580]:
+            - link "Dance Studios in London Dance away in London's best dance studios" [ref=f6e582] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/dance-studios/london
+              - generic [ref=f6e583]: Dance Studios in London
+              - generic [ref=f6e584]: Dance away in London's best dance studios
+            - generic [ref=f6e585]: 565 venues
+          - generic [ref=f6e587]:
+            - link "Party Boats in London Eat, drink, be merry and enjoy amazing views of the Thames" [ref=f6e589] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/boat-party-venues/london
+              - generic [ref=f6e590]: Party Boats in London
+              - generic [ref=f6e591]: Eat, drink, be merry and enjoy amazing views of the Thames
+            - generic [ref=f6e592]: 67 venues
+          - generic [ref=f6e594]:
+            - link "Affordable Wedding Venues in London Stunning wedding reception doesn’t have to break the bank" [ref=f6e596] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-wedding-venues/london
+              - generic [ref=f6e597]: Affordable Wedding Venues in London
+              - generic [ref=f6e598]: Stunning wedding reception doesn’t have to break the bank
+            - generic [ref=f6e599]: 3303 venues
+        - generic [ref=f6e600] [cursor=pointer]
+      - heading "Top event venues available in Manchester" [level=2] [ref=f6e601]
+      - paragraph [ref=f6e603]: From unique and quirky venues of the Northern Quarter and private function rooms in vibrant bars of Canal Street to corporate event venues in Spinningfields and spaces with a view on Salford Docks – when it comes to venue hire in Manchester, we know all the best spots.
+      - generic [ref=f6e604]:
+        - generic [ref=f6e606]:
+          - generic [ref=f6e608]:
+            - link "Meeting Rooms in Manchester Book your ideal spot for meeting in Manchester" [ref=f6e610] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/manchester
+              - generic [ref=f6e611]: Meeting Rooms in Manchester
+              - generic [ref=f6e612]: Book your ideal spot for meeting in Manchester
+            - generic [ref=f6e613]: 745 venues
+          - generic [ref=f6e615]:
+            - link "Party Venues in Manchester Deansgate, Northern Quarter and the suburbs – top places to party" [ref=f6e617] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-party-venues/manchester
+              - generic [ref=f6e618]: Party Venues in Manchester
+              - generic [ref=f6e619]: Deansgate, Northern Quarter and the suburbs – top places to party
+            - generic [ref=f6e620]: 888 venues
+          - generic [ref=f6e622]:
+            - link "Private Dining Rooms in Manchester Treat yourselves with an indulging dining experience" [ref=f6e624] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-venues/manchester
+              - generic [ref=f6e625]: Private Dining Rooms in Manchester
+              - generic [ref=f6e626]: Treat yourselves with an indulging dining experience
+            - generic [ref=f6e627]: 613 venues
+          - generic [ref=f6e629]:
+            - link "Affordable Venues in Manchester Find the most affordable spaces in Manchester" [ref=f6e631] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-venues/manchester
+              - generic [ref=f6e632]: Affordable Venues in Manchester
+              - generic [ref=f6e633]: Find the most affordable spaces in Manchester
+            - generic [ref=f6e634]: 1193 venues
+          - generic [ref=f6e636]:
+            - link "Christmas Party Venues in Manchester Celebrate the most wonderful time of the year in style!" [ref=f6e638] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/manchester
+              - generic [ref=f6e639]: Christmas Party Venues in Manchester
+              - generic [ref=f6e640]: Celebrate the most wonderful time of the year in style!
+            - generic [ref=f6e641]: 544 venues
+          - generic [ref=f6e643]:
+            - link "Private Bars in Manchester Browse Manchester's best private bars" [ref=f6e645] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-bars/manchester
+              - generic [ref=f6e646]: Private Bars in Manchester
+              - generic [ref=f6e647]: Browse Manchester's best private bars
+            - generic [ref=f6e648]: 543 venues
+          - generic [ref=f6e650]:
+            - link "Conference Venues in Manchester Find and book the best conference space in Manchester" [ref=f6e652] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/manchester
+              - generic [ref=f6e653]: Conference Venues in Manchester
+              - generic [ref=f6e654]: Find and book the best conference space in Manchester
+            - generic [ref=f6e655]: 429 venues
+          - generic [ref=f6e657]:
+            - link "Birthday Party Venues in Manchester Let’s make this birthday one to remember!" [ref=f6e659] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/manchester
+              - generic [ref=f6e660]: Birthday Party Venues in Manchester
+              - generic [ref=f6e661]: Let’s make this birthday one to remember!
+            - generic [ref=f6e662]: 668 venues
+          - generic [ref=f6e664]:
+            - link "Photo Studios in Manchester Find the best Manchester photo spaces in a flash" [ref=f6e666] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/photo-studios/manchester
+              - generic [ref=f6e667]: Photo Studios in Manchester
+              - generic [ref=f6e668]: Find the best Manchester photo spaces in a flash
+            - generic [ref=f6e669]: 49 venues
+          - generic [ref=f6e671]:
+            - link "Affordable Wedding Venues in Manchester Organise a gorgeous wedding reception on a budget" [ref=f6e673] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-wedding-venues/manchester
+              - generic [ref=f6e674]: Affordable Wedding Venues in Manchester
+              - generic [ref=f6e675]: Organise a gorgeous wedding reception on a budget
+            - generic [ref=f6e676]: 325 venues
+          - generic [ref=f6e678]:
+            - link "Corporate Event Venues in Manchester Discover top Manchester venues for business functions" [ref=f6e680] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/corporate-event-venues/manchester
+              - generic [ref=f6e681]: Corporate Event Venues in Manchester
+              - generic [ref=f6e682]: Discover top Manchester venues for business functions
+            - generic [ref=f6e683]: 702 venues
+          - generic [ref=f6e685]:
+            - link "Private Cinemas in Manchester Have the best private screening experience in Manchester" [ref=f6e687] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-cinemas/manchester
+              - generic [ref=f6e688]: Private Cinemas in Manchester
+              - generic [ref=f6e689]: Have the best private screening experience in Manchester
+            - generic [ref=f6e690]: 11 venues
+        - generic [ref=f6e691] [cursor=pointer]
+      - heading "The best event spaces to book in Birmingham" [level=2] [ref=f6e692]
+      - paragraph [ref=f6e694]: Looking for a meeting room or another kind of event space near Bullring? Organising a private party and need a private function room in one of the restaurants in the Jewellery Quarter? We’ve got it all covered. We’re listing the best spaces for hire all over Birmingham!
+      - generic [ref=f6e695]:
+        - generic [ref=f6e697]:
+          - generic [ref=f6e699]:
+            - link "Meeting Rooms in Birmingham Big and small, formal and laid-back meeting rooms for you!" [ref=f6e701] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/birmingham
+              - generic [ref=f6e702]: Meeting Rooms in Birmingham
+              - generic [ref=f6e703]: Big and small, formal and laid-back meeting rooms for you!
+            - generic [ref=f6e704]: 634 venues
+          - generic [ref=f6e706]:
+            - 'link "Affordable Venues in Birmingham Affordable Birmingham venues: Perfect spaces within budget" [ref=f6e708] [cursor=pointer]':
+              - /url: https://www.tagvenue.com/hire/affordable-venues/birmingham
+              - generic [ref=f6e709]: Affordable Venues in Birmingham
+              - generic [ref=f6e710]: "Affordable Birmingham venues: Perfect spaces within budget"
+            - generic [ref=f6e711]: 854 venues
+          - generic [ref=f6e713]:
+            - link "Party Venues in Birmingham The best spaces to host a memorable party in Birmingham" [ref=f6e715] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-party-venues/birmingham
+              - generic [ref=f6e716]: Party Venues in Birmingham
+              - generic [ref=f6e717]: The best spaces to host a memorable party in Birmingham
+            - generic [ref=f6e718]: 714 venues
+          - generic [ref=f6e720]:
+            - link "Private Dining Rooms in Birmingham Get the best dining experience in a top-tier private room" [ref=f6e722] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-venues/birmingham
+              - generic [ref=f6e723]: Private Dining Rooms in Birmingham
+              - generic [ref=f6e724]: Get the best dining experience in a top-tier private room
+            - generic [ref=f6e725]: 483 venues
+          - generic [ref=f6e727]:
+            - link "Conference Venues in Birmingham Book the best conference spaces in Birmingham" [ref=f6e729] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/birmingham
+              - generic [ref=f6e730]: Conference Venues in Birmingham
+              - generic [ref=f6e731]: Book the best conference spaces in Birmingham
+            - generic [ref=f6e732]: 365 venues
+          - generic [ref=f6e734]:
+            - link "Photo Studios in Birmingham Best studios for your next photo shoot in Birmingham" [ref=f6e736] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/photo-studios/birmingham
+              - generic [ref=f6e737]: Photo Studios in Birmingham
+              - generic [ref=f6e738]: Best studios for your next photo shoot in Birmingham
+            - generic [ref=f6e739]: 37 venues
+          - generic [ref=f6e741]:
+            - link "Christmas Party Venues in Birmingham From dining rooms for your Xmas dinner to clubs for a holiday bash!" [ref=f6e743] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/birmingham
+              - generic [ref=f6e744]: Christmas Party Venues in Birmingham
+              - generic [ref=f6e745]: From dining rooms for your Xmas dinner to clubs for a holiday bash!
+            - generic [ref=f6e746]: 384 venues
+          - generic [ref=f6e748]:
+            - link "Birthday Party Venues in Birmingham These Birmingham birthday party venues will blow you away" [ref=f6e750] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/birmingham
+              - generic [ref=f6e751]: Birthday Party Venues in Birmingham
+              - generic [ref=f6e752]: These Birmingham birthday party venues will blow you away
+            - generic [ref=f6e753]: 540 venues
+          - generic [ref=f6e755]:
+            - link "Affordable Wedding Venues in Birmingham Organise a lovely wedding reception for less" [ref=f6e757] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-wedding-venues/birmingham
+              - generic [ref=f6e758]: Affordable Wedding Venues in Birmingham
+              - generic [ref=f6e759]: Organise a lovely wedding reception for less
+            - generic [ref=f6e760]: 215 venues
+          - generic [ref=f6e762]:
+            - link "Pubs with Function Rooms in Birmingham Finest function rooms of Birmingham, all in one place" [ref=f6e764] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/pubs-with-function-rooms/birmingham
+              - generic [ref=f6e765]: Pubs with Function Rooms in Birmingham
+              - generic [ref=f6e766]: Finest function rooms of Birmingham, all in one place
+            - generic [ref=f6e767]: 391 venues
+          - generic [ref=f6e769]:
+            - link "Corporate Event Venues in Birmingham Book the best Birmingham venue for your corporate needs" [ref=f6e771] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/corporate-event-venues/birmingham
+              - generic [ref=f6e772]: Corporate Event Venues in Birmingham
+              - generic [ref=f6e773]: Book the best Birmingham venue for your corporate needs
+            - generic [ref=f6e774]: 491 venues
+          - generic [ref=f6e776]:
+            - link "Engagement Party Venues in Birmingham We’ve got the perfect engagement party venue for you" [ref=f6e778] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/engagement-party-venues/birmingham
+              - generic [ref=f6e779]: Engagement Party Venues in Birmingham
+              - generic [ref=f6e780]: We’ve got the perfect engagement party venue for you
+            - generic [ref=f6e781]: 366 venues
+        - generic [ref=f6e782] [cursor=pointer]
+      - heading "Find top venues for events in Leeds" [level=2] [ref=f6e783]
+      - paragraph [ref=f6e785]: Are you organising a company event around The Calls? Or maybe planning a milestone private party in Leeds City Centre? Perhaps you're after a creative spot near the docks? Secure a venue that checks all the boxes!
+      - generic [ref=f6e786]:
+        - generic [ref=f6e788]:
+          - generic [ref=f6e790]:
+            - link "Meeting Rooms in Leeds Hire a professional meeting room in Leeds in no time" [ref=f6e792] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/leeds
+              - generic [ref=f6e793]: Meeting Rooms in Leeds
+              - generic [ref=f6e794]: Hire a professional meeting room in Leeds in no time
+            - generic [ref=f6e795]: 410 venues
+          - generic [ref=f6e797]:
+            - link "Party Venues in Leeds Host an awesome event in a stunning party location" [ref=f6e799] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/party-venues/leeds
+              - generic [ref=f6e800]: Party Venues in Leeds
+              - generic [ref=f6e801]: Host an awesome event in a stunning party location
+            - generic [ref=f6e802]: 497 venues
+          - generic [ref=f6e804]:
+            - link "Private Bars in Leeds Find the best bar for your next party in Leeds" [ref=f6e806] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/bar-venues/leeds
+              - generic [ref=f6e807]: Private Bars in Leeds
+              - generic [ref=f6e808]: Find the best bar for your next party in Leeds
+            - generic [ref=f6e809]: 309 venues
+          - generic [ref=f6e811]:
+            - link "Private Dining Rooms in Leeds Enjoy your meal in one of the best restaurants in town" [ref=f6e813] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-venues/leeds
+              - generic [ref=f6e814]: Private Dining Rooms in Leeds
+              - generic [ref=f6e815]: Enjoy your meal in one of the best restaurants in town
+            - generic [ref=f6e816]: 341 venues
+          - generic [ref=f6e818]:
+            - link "Christmas Party Venues in Leeds Celebrate the festive season in a great Xmas party venue" [ref=f6e820] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/leeds
+              - generic [ref=f6e821]: Christmas Party Venues in Leeds
+              - generic [ref=f6e822]: Celebrate the festive season in a great Xmas party venue
+            - generic [ref=f6e823]: 293 venues
+          - generic [ref=f6e825]:
+            - link "Birthday Party Venues in Leeds Make it a night to remember in Leeds' eclectic party spots" [ref=f6e827] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/leeds
+              - generic [ref=f6e828]: Birthday Party Venues in Leeds
+              - generic [ref=f6e829]: Make it a night to remember in Leeds' eclectic party spots
+            - generic [ref=f6e830]: 387 venues
+          - generic [ref=f6e832]:
+            - link "Function Rooms in Leeds Book a flexible function venue in no time at all" [ref=f6e834] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/function-rooms/leeds
+              - generic [ref=f6e835]: Function Rooms in Leeds
+              - generic [ref=f6e836]: Book a flexible function venue in no time at all
+            - generic [ref=f6e837]: 185 venues
+          - generic [ref=f6e839]:
+            - link "Corporate Event Venues in Leeds Host a seamless corporate event in a professional setting" [ref=f6e841] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/corporate-event-venues/leeds
+              - generic [ref=f6e842]: Corporate Event Venues in Leeds
+              - generic [ref=f6e843]: Host a seamless corporate event in a professional setting
+            - generic [ref=f6e844]: 392 venues
+          - generic [ref=f6e846]:
+            - link "Engagement Party Venues in Leeds The best spaces to celebrate your engagement" [ref=f6e848] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/engagement-party-venues/leeds
+              - generic [ref=f6e849]: Engagement Party Venues in Leeds
+              - generic [ref=f6e850]: The best spaces to celebrate your engagement
+            - generic [ref=f6e851]: 286 venues
+          - generic [ref=f6e853]:
+            - link "Unusual Venues in Leeds Incredible venues for hire. Check them out" [ref=f6e855] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/unusual-venues/leeds
+              - generic [ref=f6e856]: Unusual Venues in Leeds
+              - generic [ref=f6e857]: Incredible venues for hire. Check them out
+            - generic [ref=f6e858]: 140 venues
+          - generic [ref=f6e860]:
+            - link "Conference Venues in Leeds Hire an adaptable conference room in minutes" [ref=f6e862] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/leeds
+              - generic [ref=f6e863]: Conference Venues in Leeds
+              - generic [ref=f6e864]: Hire an adaptable conference room in minutes
+            - generic [ref=f6e865]: 213 venues
+          - generic [ref=f6e867]:
+            - link "Outdoor Venues in Leeds Come and enjoy the outdoor spaces in Leeds!" [ref=f6e869] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/outdoor-venues/leeds
+              - generic [ref=f6e870]: Outdoor Venues in Leeds
+              - generic [ref=f6e871]: Come and enjoy the outdoor spaces in Leeds!
+            - generic [ref=f6e872]: 125 venues
+        - generic [ref=f6e873] [cursor=pointer]
+      - heading "Explore popular event spaces around Edinburgh" [level=2] [ref=f6e874]
+      - paragraph [ref=f6e876]: If you're planning an event in Scotland's capital, you're in the right place! No matter which part of town you'd prefer, you'll find venues from Bruntsfield to Old Town and up north in Leith. Discover private dining restaurants, modern meeting rooms, flexible halls, and more!
+      - generic [ref=f6e877]:
+        - generic [ref=f6e879]:
+          - generic [ref=f6e881]:
+            - link "Meeting Rooms in Edinburgh Get organised in one of Edinburgh's stylish meeting spaces" [ref=f6e883] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/edinburgh
+              - generic [ref=f6e884]: Meeting Rooms in Edinburgh
+              - generic [ref=f6e885]: Get organised in one of Edinburgh's stylish meeting spaces
+            - generic [ref=f6e886]: 335 venues
+          - generic [ref=f6e888]:
+            - link "Party Venues in Edinburgh Find top trendy venues for a memorable celebration" [ref=f6e890] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/party-venues/edinburgh
+              - generic [ref=f6e891]: Party Venues in Edinburgh
+              - generic [ref=f6e892]: Find top trendy venues for a memorable celebration
+            - generic [ref=f6e893]: 436 venues
+          - generic [ref=f6e895]:
+            - link "Pubs with Function Rooms in Edinburgh Finest function rooms of Edinburgh, all in one place" [ref=f6e897] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/pubs-with-function-rooms/edinburgh
+              - generic [ref=f6e898]: Pubs with Function Rooms in Edinburgh
+              - generic [ref=f6e899]: Finest function rooms of Edinburgh, all in one place
+            - generic [ref=f6e900]: 267 venues
+          - generic [ref=f6e902]:
+            - link "Function Rooms in Edinburgh Hire the best function room in the area in a flash" [ref=f6e904] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/function-rooms/edinburgh
+              - generic [ref=f6e905]: Function Rooms in Edinburgh
+              - generic [ref=f6e906]: Hire the best function room in the area in a flash
+            - generic [ref=f6e907]: 194 venues
+          - generic [ref=f6e909]:
+            - link "Private Dining Rooms in Edinburgh Feast like royalty in our exclusive culinary hideaways." [ref=f6e911] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-rooms/edinburgh
+              - generic [ref=f6e912]: Private Dining Rooms in Edinburgh
+              - generic [ref=f6e913]: Feast like royalty in our exclusive culinary hideaways.
+            - generic [ref=f6e914]: 350 venues
+          - generic [ref=f6e916]:
+            - link "Affordable Wedding Venues in Edinburgh Find budget-friendly venues for your wedding today" [ref=f6e918] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-wedding-venues/edinburgh
+              - generic [ref=f6e919]: Affordable Wedding Venues in Edinburgh
+              - generic [ref=f6e920]: Find budget-friendly venues for your wedding today
+            - generic [ref=f6e921]: 174 venues
+          - generic [ref=f6e923]:
+            - link "Christmas Party Venues in Edinburgh Hire a fun Christmas party venue in Edinburgh in no time" [ref=f6e925] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/edinburgh
+              - generic [ref=f6e926]: Christmas Party Venues in Edinburgh
+              - generic [ref=f6e927]: Hire a fun Christmas party venue in Edinburgh in no time
+            - generic [ref=f6e928]: 302 venues
+          - generic [ref=f6e930]:
+            - link "Conference Venues in Edinburgh Impress your guests in Edinburgh's beautiful conference rooms" [ref=f6e932] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/edinburgh
+              - generic [ref=f6e933]: Conference Venues in Edinburgh
+              - generic [ref=f6e934]: Impress your guests in Edinburgh's beautiful conference rooms
+            - generic [ref=f6e935]: 178 venues
+          - generic [ref=f6e937]:
+            - link "Birthday Party Venues in Edinburgh The best places to celebrate another year of your life" [ref=f6e939] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/edinburgh
+              - generic [ref=f6e940]: Birthday Party Venues in Edinburgh
+              - generic [ref=f6e941]: The best places to celebrate another year of your life
+            - generic [ref=f6e942]: 379 venues
+          - generic [ref=f6e944]:
+            - link "Corporate Event Venues in Edinburgh Hire a professional venue for your next event" [ref=f6e946] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/corporate-event-venues/edinburgh
+              - generic [ref=f6e947]: Corporate Event Venues in Edinburgh
+              - generic [ref=f6e948]: Hire a professional venue for your next event
+            - generic [ref=f6e949]: 345 venues
+          - generic [ref=f6e951]:
+            - link "Unusual Venues in Edinburgh Choose the perfect unique venue for you" [ref=f6e953] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/unusual-venues/edinburgh
+              - generic [ref=f6e954]: Unusual Venues in Edinburgh
+              - generic [ref=f6e955]: Choose the perfect unique venue for you
+            - generic [ref=f6e956]: 112 venues
+          - generic [ref=f6e958]:
+            - link "Engagement Party Venues in Edinburgh Celebrate love in Edinburgh's best venues!" [ref=f6e960] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/engagement-party-venues/edinburgh
+              - generic [ref=f6e961]: Engagement Party Venues in Edinburgh
+              - generic [ref=f6e962]: Celebrate love in Edinburgh's best venues!
+            - generic [ref=f6e963]: 295 venues
+        - generic [ref=f6e964] [cursor=pointer]
+      - heading "Discover Liverpool's best event locations" [level=2] [ref=f6e965]
+      - paragraph [ref=f6e967]: Find and secure one of the top venues in Merseyside! Liverpool offers hotel function rooms, affordable bars and pubs, and well-equipped meeting spaces, from the Waterfront to Anfield and beyond. Whether you're organising a party or a corporate event, you'll find something just right!
+      - generic [ref=f6e968]:
+        - generic [ref=f6e970]:
+          - generic [ref=f6e972]:
+            - link "Party Venues in Liverpool Host a night to remember in one of the city's fun spots" [ref=f6e974] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/party-venues/liverpool
+              - generic [ref=f6e975]: Party Venues in Liverpool
+              - generic [ref=f6e976]: Host a night to remember in one of the city's fun spots
+            - generic [ref=f6e977]: 353 venues
+          - generic [ref=f6e979]:
+            - link "Private Dining Rooms in Liverpool Celebrate important moments of life with a feast" [ref=f6e981] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-rooms/liverpool
+              - generic [ref=f6e982]: Private Dining Rooms in Liverpool
+              - generic [ref=f6e983]: Celebrate important moments of life with a feast
+            - generic [ref=f6e984]: 289 venues
+          - generic [ref=f6e986]:
+            - link "Meeting Rooms in Liverpool Pick from a variety of professional and laid-back meeting rooms in Liverpool." [ref=f6e988] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/liverpool
+              - generic [ref=f6e989]: Meeting Rooms in Liverpool
+              - generic [ref=f6e990]: Pick from a variety of professional and laid-back meeting rooms in Liverpool.
+            - generic [ref=f6e991]: 275 venues
+          - generic [ref=f6e993]:
+            - link "Small Venues in Liverpool Pick a small venue to your liking in no time" [ref=f6e995] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/small-venues/liverpool
+              - generic [ref=f6e996]: Small Venues in Liverpool
+              - generic [ref=f6e997]: Pick a small venue to your liking in no time
+            - generic [ref=f6e998]: 390 venues
+          - generic [ref=f6e1000]:
+            - link "Private Bars in Liverpool Liverpool's best bar venues, all in one place" [ref=f6e1002] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/bar-venues/liverpool
+              - generic [ref=f6e1003]: Private Bars in Liverpool
+              - generic [ref=f6e1004]: Liverpool's best bar venues, all in one place
+            - generic [ref=f6e1005]: 268 venues
+          - generic [ref=f6e1007]:
+            - link "Affordable Wedding Venues in Liverpool Have a beautiful wedding without breaking the bank." [ref=f6e1009] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-wedding-venues/liverpool
+              - generic [ref=f6e1010]: Affordable Wedding Venues in Liverpool
+              - generic [ref=f6e1011]: Have a beautiful wedding without breaking the bank.
+            - generic [ref=f6e1012]: 137 venues
+          - generic [ref=f6e1014]:
+            - link "Christmas Party Venues in Liverpool We wish you a Merry Christmas and an unforgettable Christmas party!" [ref=f6e1016] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/liverpool
+              - generic [ref=f6e1017]: Christmas Party Venues in Liverpool
+              - generic [ref=f6e1018]: We wish you a Merry Christmas and an unforgettable Christmas party!
+            - generic [ref=f6e1019]: 259 venues
+          - generic [ref=f6e1021]:
+            - link "Photo Studios in Liverpool Discover your options for the best photo studios" [ref=f6e1023] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/photo-studios/liverpool
+              - generic [ref=f6e1024]: Photo Studios in Liverpool
+              - generic [ref=f6e1025]: Discover your options for the best photo studios
+            - generic [ref=f6e1026]: 12 venues
+          - generic [ref=f6e1028]:
+            - link "Restaurants with Private Rooms in Liverpool Host a memorable dinner in one of our top spots" [ref=f6e1030] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/restaurants-with-private-rooms/liverpool
+              - generic [ref=f6e1031]: Restaurants with Private Rooms in Liverpool
+              - generic [ref=f6e1032]: Host a memorable dinner in one of our top spots
+            - generic [ref=f6e1033]: 246 venues
+          - generic [ref=f6e1035]:
+            - link "Engagement Party Venues in Liverpool Have a memorable night in one of the most charming spaces" [ref=f6e1037] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/engagement-party-venues/liverpool
+              - generic [ref=f6e1038]: Engagement Party Venues in Liverpool
+              - generic [ref=f6e1039]: Have a memorable night in one of the most charming spaces
+            - generic [ref=f6e1040]: 257 venues
+          - generic [ref=f6e1042]:
+            - link "Dance Studios in Liverpool Find the perfect studio for your dance practice" [ref=f6e1044] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/dance-studios/liverpool
+              - generic [ref=f6e1045]: Dance Studios in Liverpool
+              - generic [ref=f6e1046]: Find the perfect studio for your dance practice
+            - generic [ref=f6e1047]: 6 venues
+          - generic [ref=f6e1049]:
+            - link "Conference Venues in Liverpool Browse amazing conference venues of all shapes and sizes!" [ref=f6e1051] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/liverpool
+              - generic [ref=f6e1052]: Conference Venues in Liverpool
+              - generic [ref=f6e1053]: Browse amazing conference venues of all shapes and sizes!
+            - generic [ref=f6e1054]: 143 venues
+        - generic [ref=f6e1055] [cursor=pointer]
+      - heading "Find your perfect venue in Bristol" [level=2] [ref=f6e1056]
+      - paragraph [ref=f6e1058]: Drink and dine in waterfront eateries, celebrate special occasions in Clifton's party venues, and organise business events in meeting rooms and conference hotels in the City Centre. Bristol has everything you need for a successful event!
+      - generic [ref=f6e1059]:
+        - generic [ref=f6e1061]:
+          - generic [ref=f6e1063]:
+            - link "Meeting Rooms in Bristol Choose from a wide range of versatile meeting spaces" [ref=f6e1065] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/bristol
+              - generic [ref=f6e1066]: Meeting Rooms in Bristol
+              - generic [ref=f6e1067]: Choose from a wide range of versatile meeting spaces
+            - generic [ref=f6e1068]: 306 venues
+          - generic [ref=f6e1070]:
+            - link "Birthday Party Venues in Bristol Bristol's best spaces for a birthday bonanza" [ref=f6e1072] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/bristol
+              - generic [ref=f6e1073]: Birthday Party Venues in Bristol
+              - generic [ref=f6e1074]: Bristol's best spaces for a birthday bonanza
+            - generic [ref=f6e1075]: 306 venues
+          - generic [ref=f6e1077]:
+            - link "Private Bars in Bristol Check out these amazing bars today!" [ref=f6e1079] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/bar-venues/bristol
+              - generic [ref=f6e1080]: Private Bars in Bristol
+              - generic [ref=f6e1081]: Check out these amazing bars today!
+            - generic [ref=f6e1082]: 215 venues
+          - generic [ref=f6e1084]:
+            - link "Small Party Venues in Bristol Book a unique small party venue now!" [ref=f6e1086] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/small-party-venues/bristol
+              - generic [ref=f6e1087]: Small Party Venues in Bristol
+              - generic [ref=f6e1088]: Book a unique small party venue now!
+            - generic [ref=f6e1089]: 403 venues
+          - generic [ref=f6e1091]:
+            - link "Minimum Spend Venues in Bristol Have the night of your life without breaking the bank" [ref=f6e1093] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/minimum-spend-venues/bristol
+              - generic [ref=f6e1094]: Minimum Spend Venues in Bristol
+              - generic [ref=f6e1095]: Have the night of your life without breaking the bank
+            - generic [ref=f6e1096]: 130 venues
+          - generic [ref=f6e1098]:
+            - link "Christmas Party Venues in Bristol Hire the perfect place for a full-on festive party" [ref=f6e1100] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/bristol
+              - generic [ref=f6e1101]: Christmas Party Venues in Bristol
+              - generic [ref=f6e1102]: Hire the perfect place for a full-on festive party
+            - generic [ref=f6e1103]: 245 venues
+          - generic [ref=f6e1105]:
+            - link "Private Dining Rooms in Bristol Enjoy the superb food in supreme venues" [ref=f6e1107] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-rooms/bristol
+              - generic [ref=f6e1108]: Private Dining Rooms in Bristol
+              - generic [ref=f6e1109]: Enjoy the superb food in supreme venues
+            - generic [ref=f6e1110]: 269 venues
+          - generic [ref=f6e1112]:
+            - link "Conference Venues in Bristol Find professional conference venues all across the city" [ref=f6e1114] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/bristol
+              - generic [ref=f6e1115]: Conference Venues in Bristol
+              - generic [ref=f6e1116]: Find professional conference venues all across the city
+            - generic [ref=f6e1117]: 144 venues
+          - generic [ref=f6e1119]:
+            - link "Dance Studios in Bristol The best studios ready for your next dance practice" [ref=f6e1121] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/dance-studios/bristol
+              - generic [ref=f6e1122]: Dance Studios in Bristol
+              - generic [ref=f6e1123]: The best studios ready for your next dance practice
+            - generic [ref=f6e1124]: 31 venues
+          - generic [ref=f6e1126]:
+            - link "Corporate Event Venues in Bristol The most stylish spaces for a corporate gathering" [ref=f6e1128] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/corporate-event-venues/bristol
+              - generic [ref=f6e1129]: Corporate Event Venues in Bristol
+              - generic [ref=f6e1130]: The most stylish spaces for a corporate gathering
+            - generic [ref=f6e1131]: 309 venues
+          - generic [ref=f6e1133]:
+            - link "Photo Studios in Bristol Take high-quality photos in the best photo studios" [ref=f6e1135] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/photo-studios/bristol
+              - generic [ref=f6e1136]: Photo Studios in Bristol
+              - generic [ref=f6e1137]: Take high-quality photos in the best photo studios
+            - generic [ref=f6e1138]: 27 venues
+          - generic [ref=f6e1140]:
+            - link "Affordable Wedding Venues in Bristol Find beautiful wedding venues for great prices" [ref=f6e1142] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-wedding-venues/bristol
+              - generic [ref=f6e1143]: Affordable Wedding Venues in Bristol
+              - generic [ref=f6e1144]: Find beautiful wedding venues for great prices
+            - generic [ref=f6e1145]: 122 venues
+        - generic [ref=f6e1146] [cursor=pointer]
+      - heading "Glasgow's best event spaces available for booking" [level=2] [ref=f6e1147]
+      - paragraph [ref=f6e1149]: Whether you're looking for modern conference locations, buzzing party venues, or elegant private dining rooms with exquisite menus, we're here to help! Discover the best venues for all occasions in Glasgow, from Merchant City to Shawlands and beyond!
+      - generic [ref=f6e1150]:
+        - generic [ref=f6e1152]:
+          - generic [ref=f6e1154]:
+            - link "Meeting Rooms in Glasgow Hire a professional meeting room in Glasgow in no time" [ref=f6e1156] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/glasgow
+              - generic [ref=f6e1157]: Meeting Rooms in Glasgow
+              - generic [ref=f6e1158]: Hire a professional meeting room in Glasgow in no time
+            - generic [ref=f6e1159]: 255 venues
+          - generic [ref=f6e1161]:
+            - link "Birthday Party Venues in Glasgow Find a fun birthday party venue within minutes" [ref=f6e1163] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/glasgow
+              - generic [ref=f6e1164]: Birthday Party Venues in Glasgow
+              - generic [ref=f6e1165]: Find a fun birthday party venue within minutes
+            - generic [ref=f6e1166]: 304 venues
+          - generic [ref=f6e1168]:
+            - link "Small Party Venues in Glasgow Discover Glasgow's party scene with your closest circle!" [ref=f6e1170] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/small-party-venues/glasgow
+              - generic [ref=f6e1171]: Small Party Venues in Glasgow
+              - generic [ref=f6e1172]: Discover Glasgow's party scene with your closest circle!
+            - generic [ref=f6e1173]: 363 venues
+          - generic [ref=f6e1175]:
+            - link "Private Dining Rooms in Glasgow Book a private dining room in Glasgow fast and easy" [ref=f6e1177] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-rooms/glasgow
+              - generic [ref=f6e1178]: Private Dining Rooms in Glasgow
+              - generic [ref=f6e1179]: Book a private dining room in Glasgow fast and easy
+            - generic [ref=f6e1180]: 276 venues
+          - generic [ref=f6e1182]:
+            - link "Affordable Wedding Venues in Glasgow Celebrate in the best affordable wedding locations!" [ref=f6e1184] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-wedding-venues/glasgow
+              - generic [ref=f6e1185]: Affordable Wedding Venues in Glasgow
+              - generic [ref=f6e1186]: Celebrate in the best affordable wedding locations!
+            - generic [ref=f6e1187]: 136 venues
+          - generic [ref=f6e1189]:
+            - link "Pubs with Function Rooms in Glasgow Hire a pub with function room in no time at all" [ref=f6e1191] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/pubs-with-function-rooms/glasgow
+              - generic [ref=f6e1192]: Pubs with Function Rooms in Glasgow
+              - generic [ref=f6e1193]: Hire a pub with function room in no time at all
+            - generic [ref=f6e1194]: 238 venues
+          - generic [ref=f6e1196]:
+            - link "Affordable Venues in Glasgow Party smart with Glasgow's best budget venues!" [ref=f6e1198] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/affordable-venues/glasgow
+              - generic [ref=f6e1199]: Affordable Venues in Glasgow
+              - generic [ref=f6e1200]: Party smart with Glasgow's best budget venues!
+            - generic [ref=f6e1201]: 411 venues
+          - generic [ref=f6e1203]:
+            - link "Christmas Party Venues in Glasgow Book a festive Christmas party venue in just a few clicks!" [ref=f6e1205] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/glasgow
+              - generic [ref=f6e1206]: Christmas Party Venues in Glasgow
+              - generic [ref=f6e1207]: Book a festive Christmas party venue in just a few clicks!
+            - generic [ref=f6e1208]: 245 venues
+          - generic [ref=f6e1210]:
+            - link "Corporate Event Venues in Glasgow Check out our extensive corporate venue list" [ref=f6e1212] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/corporate-event-venues/glasgow
+              - generic [ref=f6e1213]: Corporate Event Venues in Glasgow
+              - generic [ref=f6e1214]: Check out our extensive corporate venue list
+            - generic [ref=f6e1215]: 307 venues
+          - generic [ref=f6e1217]:
+            - link "Conference Venues in Glasgow Book a classy conference room in the very heart of Glasgow" [ref=f6e1219] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/glasgow
+              - generic [ref=f6e1220]: Conference Venues in Glasgow
+              - generic [ref=f6e1221]: Book a classy conference room in the very heart of Glasgow
+            - generic [ref=f6e1222]: 143 venues
+          - generic [ref=f6e1224]:
+            - 'link "Halls in Glasgow Glasgow’s halls: Set the stage for your standout event!" [ref=f6e1226] [cursor=pointer]':
+              - /url: https://www.tagvenue.com/hire/halls/glasgow
+              - generic [ref=f6e1227]: Halls in Glasgow
+              - generic [ref=f6e1228]: "Glasgow’s halls: Set the stage for your standout event!"
+            - generic [ref=f6e1229]: 80 venues
+          - generic [ref=f6e1231]:
+            - link "Engagement Party Venues in Glasgow Find a romantic venue for your celebration" [ref=f6e1233] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/engagement-party-venues/glasgow
+              - generic [ref=f6e1234]: Engagement Party Venues in Glasgow
+              - generic [ref=f6e1235]: Find a romantic venue for your celebration
+            - generic [ref=f6e1236]: 248 venues
+        - generic [ref=f6e1237] [cursor=pointer]
+      - heading "Browse top locations for events in Nottingham" [level=2] [ref=f6e1238]
+      - paragraph [ref=f6e1240]: Explore a diverse selection of venues and host your event in Nottingham! From fantastic bars, restaurants, and clubs near Old Market Square to conference and meeting rooms in Lenton, we're listing spaces for all kinds of events.
+      - generic [ref=f6e1241]:
+        - generic [ref=f6e1243]:
+          - generic [ref=f6e1245]:
+            - link "Small Party Venues in Nottingham Host your intimate gathering in a dazzling venue" [ref=f6e1247] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/small-party-venues/nottingham
+              - generic [ref=f6e1248]: Small Party Venues in Nottingham
+              - generic [ref=f6e1249]: Host your intimate gathering in a dazzling venue
+            - generic [ref=f6e1250]: 160 venues
+          - generic [ref=f6e1252]:
+            - link "Meeting Rooms in Nottingham Best venues to hold your next meeting" [ref=f6e1254] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/nottingham
+              - generic [ref=f6e1255]: Meeting Rooms in Nottingham
+              - generic [ref=f6e1256]: Best venues to hold your next meeting
+            - generic [ref=f6e1257]: 108 venues
+          - generic [ref=f6e1259]:
+            - link "Function Rooms in Nottingham The best function rooms in town in one place!" [ref=f6e1261] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/function-rooms/nottingham
+              - generic [ref=f6e1262]: Function Rooms in Nottingham
+              - generic [ref=f6e1263]: The best function rooms in town in one place!
+            - generic [ref=f6e1264]: 44 venues
+          - generic [ref=f6e1266]:
+            - link "Birthday Party Venues in Nottingham Have the best birthday bash in a Nottingham party spot!" [ref=f6e1268] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/nottingham
+              - generic [ref=f6e1269]: Birthday Party Venues in Nottingham
+              - generic [ref=f6e1270]: Have the best birthday bash in a Nottingham party spot!
+            - generic [ref=f6e1271]: 123 venues
+          - generic [ref=f6e1273]:
+            - link "Restaurants with Private Rooms in Nottingham Book your hidden gem today!" [ref=f6e1275] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/restaurants-with-private-rooms/nottingham
+              - generic [ref=f6e1276]: Restaurants with Private Rooms in Nottingham
+              - generic [ref=f6e1277]: Book your hidden gem today!
+            - generic [ref=f6e1278]: 108 venues
+          - generic [ref=f6e1280]:
+            - link "Pubs with Function Rooms in Nottingham Cheers to great events at top pub function rooms!" [ref=f6e1282] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/pubs-with-function-rooms/nottingham
+              - generic [ref=f6e1283]: Pubs with Function Rooms in Nottingham
+              - generic [ref=f6e1284]: Cheers to great events at top pub function rooms!
+            - generic [ref=f6e1285]: 105 venues
+          - generic [ref=f6e1287]:
+            - link "Christmas Party Venues in Nottingham Have the best Christmas celebrations in town!" [ref=f6e1289] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/nottingham
+              - generic [ref=f6e1290]: Christmas Party Venues in Nottingham
+              - generic [ref=f6e1291]: Have the best Christmas celebrations in town!
+            - generic [ref=f6e1292]: 100 venues
+          - generic [ref=f6e1294]:
+            - link "Private Dining Rooms in Nottingham Find top-rated private dining rooms in Nottingham" [ref=f6e1296] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-rooms/nottingham
+              - generic [ref=f6e1297]: Private Dining Rooms in Nottingham
+              - generic [ref=f6e1298]: Find top-rated private dining rooms in Nottingham
+            - generic [ref=f6e1299]: 113 venues
+          - generic [ref=f6e1301]:
+            - link "Engagement Party Venues in Nottingham Engagement party spaces that’ll make you go whoa!" [ref=f6e1303] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/engagement-party-venues/nottingham
+              - generic [ref=f6e1304]: Engagement Party Venues in Nottingham
+              - generic [ref=f6e1305]: Engagement party spaces that’ll make you go whoa!
+            - generic [ref=f6e1306]: 97 venues
+          - generic [ref=f6e1308]:
+            - link "Conference Venues in Nottingham Nottingham’s top spaces for corporate events" [ref=f6e1310] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/conference-venues/nottingham
+              - generic [ref=f6e1311]: Conference Venues in Nottingham
+              - generic [ref=f6e1312]: Nottingham’s top spaces for corporate events
+            - generic [ref=f6e1313]: 70 venues
+          - generic [ref=f6e1315]:
+            - link "Small Wedding Venues in Nottingham Begin your happily ever after with these stunning venues!" [ref=f6e1317] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/small-wedding-venues/nottingham
+              - generic [ref=f6e1318]: Small Wedding Venues in Nottingham
+              - generic [ref=f6e1319]: Begin your happily ever after with these stunning venues!
+            - generic [ref=f6e1320]: 67 venues
+          - generic [ref=f6e1322]:
+            - link "Halls in Nottingham Browse halls for every kind of bash" [ref=f6e1324] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/halls/nottingham
+              - generic [ref=f6e1325]: Halls in Nottingham
+              - generic [ref=f6e1326]: Browse halls for every kind of bash
+            - generic [ref=f6e1327]: 23 venues
+        - generic [ref=f6e1328] [cursor=pointer]
+      - heading "Book popular spaces in Brighton" [level=2] [ref=f6e1329]
+      - paragraph [ref=f6e1331]: Enjoy the seaside charm and organise your party, conference, photoshoot, or any other event in and around Brighton! Explore spaces from Hove to Elm Grove and beyond. Find halls, dining rooms, rooftops, and more!
+      - generic [ref=f6e1332]:
+        - generic [ref=f6e1334]:
+          - generic [ref=f6e1336]:
+            - link "Pubs with Function Rooms in Brighton Book one of the pubs with function rooms in Brighton" [ref=f6e1338] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/pubs-with-function-rooms/brighton
+              - generic [ref=f6e1339]: Pubs with Function Rooms in Brighton
+              - generic [ref=f6e1340]: Book one of the pubs with function rooms in Brighton
+            - generic [ref=f6e1341]: 176 venues
+          - generic [ref=f6e1343]:
+            - link "Party Venues in Brighton Celebrate in Brighton's best party spots!" [ref=f6e1345] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/party-venues/brighton
+              - generic [ref=f6e1346]: Party Venues in Brighton
+              - generic [ref=f6e1347]: Celebrate in Brighton's best party spots!
+            - generic [ref=f6e1348]: 247 venues
+          - generic [ref=f6e1350]:
+            - link "Birthday Party Venues in Brighton Reserve your ideal birthday space today!" [ref=f6e1352] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/birthday-party-venues/brighton
+              - generic [ref=f6e1353]: Birthday Party Venues in Brighton
+              - generic [ref=f6e1354]: Reserve your ideal birthday space today!
+            - generic [ref=f6e1355]: 211 venues
+          - generic [ref=f6e1357]:
+            - link "Meeting Rooms in Brighton Book an affordable meeting room in no time" [ref=f6e1359] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/meeting-rooms/brighton
+              - generic [ref=f6e1360]: Meeting Rooms in Brighton
+              - generic [ref=f6e1361]: Book an affordable meeting room in no time
+            - generic [ref=f6e1362]: 127 venues
+          - generic [ref=f6e1364]:
+            - link "Private Dining Rooms in Brighton Feast in privacy in Brighton's best dining spaces" [ref=f6e1366] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/private-dining-rooms/brighton
+              - generic [ref=f6e1367]: Private Dining Rooms in Brighton
+              - generic [ref=f6e1368]: Feast in privacy in Brighton's best dining spaces
+            - generic [ref=f6e1369]: 206 venues
+          - generic [ref=f6e1371]:
+            - link "Cheap Wedding Venues in Brighton Sparkle on a budget in Brighton's venues!" [ref=f6e1373] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/cheap-wedding-venues/brighton
+              - generic [ref=f6e1374]: Cheap Wedding Venues in Brighton
+              - generic [ref=f6e1375]: Sparkle on a budget in Brighton's venues!
+            - generic [ref=f6e1376]: 88 venues
+          - generic [ref=f6e1378]:
+            - link "Christmas Party Venues in Brighton Celebrate Christmas in Brighton's best spots!" [ref=f6e1380] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/christmas-party-venues/brighton
+              - generic [ref=f6e1381]: Christmas Party Venues in Brighton
+              - generic [ref=f6e1382]: Celebrate Christmas in Brighton's best spots!
+            - generic [ref=f6e1383]: 188 venues
+          - generic [ref=f6e1385]:
+            - link "Photo Studios in Brighton Discover a plethora of magnificent photo studios." [ref=f6e1387] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/photo-studios/brighton
+              - generic [ref=f6e1388]: Photo Studios in Brighton
+              - generic [ref=f6e1389]: Discover a plethora of magnificent photo studios.
+            - generic [ref=f6e1390]: 11 venues
+          - generic [ref=f6e1392]:
+            - 'link "Live Music Venues in Brighton Top live music spots: where beats drop and crowds roar" [ref=f6e1394] [cursor=pointer]':
+              - /url: https://www.tagvenue.com/hire/live-music-venues/brighton
+              - generic [ref=f6e1395]: Live Music Venues in Brighton
+              - generic [ref=f6e1396]: "Top live music spots: where beats drop and crowds roar"
+            - generic [ref=f6e1397]: 56 venues
+          - generic [ref=f6e1399]:
+            - 'link "Minimum Spend Venues in Brighton Minimum spend venues: Style and savings in harmony!" [ref=f6e1401] [cursor=pointer]':
+              - /url: https://www.tagvenue.com/hire/minimum-spend-venues/brighton
+              - generic [ref=f6e1402]: Minimum Spend Venues in Brighton
+              - generic [ref=f6e1403]: "Minimum spend venues: Style and savings in harmony!"
+            - generic [ref=f6e1404]: 102 venues
+          - generic [ref=f6e1406]:
+            - link "Creative Art Studios in Brighton Art, music, and photo studios for hire!" [ref=f6e1408] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/creative-art-studios/brighton
+              - generic [ref=f6e1409]: Creative Art Studios in Brighton
+              - generic [ref=f6e1410]: Art, music, and photo studios for hire!
+            - generic [ref=f6e1411]: 32 venues
+          - generic [ref=f6e1413]:
+            - link "Filming Locations in Brighton Inspiring spaces to film your next masterpiece." [ref=f6e1415] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/hire/filming-locations/brighton
+              - generic [ref=f6e1416]: Filming Locations in Brighton
+              - generic [ref=f6e1417]: Inspiring spaces to film your next masterpiece.
+            - generic [ref=f6e1418]: 40 venues
+        - generic [ref=f6e1419] [cursor=pointer]
+    - generic [ref=f6e1421]:
+      - heading "Explore spaces all over the world" [level=2] [ref=f6e1422]
+      - generic [ref=f6e1423]:
+        - generic [ref=f6e1425]:
+          - generic [ref=f6e1426]: Hop continents with us in search of the most vibrant locations
+          - generic [ref=f6e1434]:
+            - generic [ref=f6e1435]:
+              - link "Los Angeles, CA" [ref=f6e1437] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/los-angeles
+              - generic [ref=f6e1439]: Create memories in the capital of entertainment
+              - generic [ref=f6e1440]: 1541 venues
+            - generic [ref=f6e1441]:
+              - link "Toronto, ON" [ref=f6e1443] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/ca/city/toronto
+              - generic [ref=f6e1445]: Incredible locations in Canada’s largest city
+              - generic [ref=f6e1446]: 1049 venues
+          - generic [ref=f6e1447]:
+            - generic [ref=f6e1448]:
+              - link "Sydney" [ref=f6e1450] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/au/city/sydney
+              - generic [ref=f6e1452]: Exclusive event venues of the harbour waiting for you
+              - generic [ref=f6e1453]: 1913 venues
+            - generic [ref=f6e1454]:
+              - link "Singapore" [ref=f6e1456] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/sg/
+              - generic [ref=f6e1458]: Hurry to discover the best event spaces in the city!
+              - generic [ref=f6e1459]: 1733 venues
+          - generic [ref=f6e1461]:
+            - link "New York City, NY" [ref=f6e1463] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/us/city/new-york-city
+            - generic [ref=f6e1465]: Make it happen in the city that never sleeps
+            - generic [ref=f6e1466]: 2777 venues
+          - generic [ref=f6e1467]:
+            - generic [ref=f6e1468]:
+              - link "San Francisco, CA" [ref=f6e1470] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/san-francisco
+              - generic [ref=f6e1472]: Host a memorable event in the City by the Bay
+              - generic [ref=f6e1473]: 388 venues
+            - generic [ref=f6e1474]:
+              - link "Houston, TX" [ref=f6e1476] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/houston
+              - generic [ref=f6e1478]: Shoot for the stars in Space City
+              - generic [ref=f6e1479]: 419 venues
+          - generic [ref=f6e1480]:
+            - generic [ref=f6e1481]:
+              - link "Melbourne" [ref=f6e1483] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/au/city/melbourne
+              - generic [ref=f6e1485]: Top event spaces of the cultural capital
+              - generic [ref=f6e1486]: 2590 venues
+            - generic [ref=f6e1487]:
+              - link "Atlanta, GA" [ref=f6e1489] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/atlanta
+              - generic [ref=f6e1491]: Premier event venues full of southern charm
+              - generic [ref=f6e1492]: 288 venues
+          - generic [ref=f6e1493]:
+            - generic [ref=f6e1494]:
+              - link "Chicago, IL" [ref=f6e1496] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/chicago
+              - generic [ref=f6e1498]: Diverse culture and culinary delights
+              - generic [ref=f6e1499]: 647 venues
+            - generic [ref=f6e1500]:
+              - link "Washington, DC" [ref=f6e1502] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/washington-dc
+              - generic [ref=f6e1504]: Business, culture and life of the party in the capital
+              - generic [ref=f6e1505]: 405 venues
+          - generic [ref=f6e1506]:
+            - generic [ref=f6e1507]:
+              - link "Miami, FL" [ref=f6e1509] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/miami
+              - generic [ref=f6e1511]: Sunshine, ocean views and top venues in Florida
+              - generic [ref=f6e1512]: 352 venues
+            - generic [ref=f6e1513]:
+              - link "Las Vegas, NV" [ref=f6e1515] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/las-vegas
+              - generic [ref=f6e1517]: Party away in one of Sin City's top spots
+              - generic [ref=f6e1518]: 154 venues
+          - generic [ref=f6e1519]:
+            - generic [ref=f6e1520]:
+              - link "Boston, MA" [ref=f6e1522] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/boston
+              - generic [ref=f6e1524]: Don't miss out on the best venues in the city!
+              - generic [ref=f6e1525]: 80 venues
+            - generic [ref=f6e1526]:
+              - link "San Diego, CA" [ref=f6e1528] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/san-diego
+              - generic [ref=f6e1530]: Top event spaces in picturesque San Diego
+              - generic [ref=f6e1531]: 249 venues
+          - generic [ref=f6e1532]:
+            - generic [ref=f6e1533]:
+              - link "Austin, TX" [ref=f6e1535] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/us/city/austin
+              - generic [ref=f6e1537]: Discover the best venues in the capital of Texas
+              - generic [ref=f6e1538]: 196 venues
+            - generic [ref=f6e1539]:
+              - link "Brisbane" [ref=f6e1541] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/au/city/brisbane
+              - generic [ref=f6e1543]: The hottest event spaces on the Queensland Coast
+              - generic [ref=f6e1544]: 732 venues
+          - generic [ref=f6e1545]:
+            - generic [ref=f6e1546]:
+              - link "Perth" [ref=f6e1548] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/au/city/perth
+              - generic [ref=f6e1550]: The best event venues in Western Australia
+              - generic [ref=f6e1551]: 416 venues
+            - generic [ref=f6e1552]:
+              - link "Dublin" [ref=f6e1554] [cursor=pointer]:
+                - /url: https://www.tagvenue.com/ie/city/dublin
+              - generic [ref=f6e1556]: Make it happen in the capital
+              - generic [ref=f6e1557]: 361 venues
+        - generic [ref=f6e1558] [cursor=pointer]
+    - generic [ref=f6e1559]:
+      - heading "Tagvenue - your trusted venue marketplace" [level=2] [ref=f6e1560]
+      - paragraph [ref=f6e1562]: Join 1M+ event organisers enjoying a fuss-free venue search every month. With us, any event can find the right venue, and venue owners can boost their business.
+      - generic [ref=f6e1563]:
+        - generic [ref=f6e1564]:
+          - heading "Discover unique spaces for any event" [level=3] [ref=f6e1568]
+          - paragraph [ref=f6e1569]: We list over 22K venues across six countries. You’ll find the right one among 40+ different venue types, including restaurants, halls, photo studios, boats, and castles.
+        - generic [ref=f6e1570]:
+          - heading "Find the perfect fit with smart tools" [level=3] [ref=f6e1574]
+          - paragraph [ref=f6e1575]: Use over 100 intuitive filters to customise your search by budget, guest count, amenities, cancellation flexibility, and more. See real prices and response times upfront.
+        - generic [ref=f6e1576]:
+          - heading "Check verified reviews before you book" [level=3] [ref=f6e1580]
+          - paragraph [ref=f6e1581]: "Feel confident in your choice by hearing from people who have been there: read 100K+ reviews from real users who have hosted events at venues listed on our platform."
+        - generic [ref=f6e1582]:
+          - heading "Make a secure, hassle-free booking" [level=3] [ref=f6e1586]
+          - paragraph [ref=f6e1587]: Pay for your booking securely, chat directly with managers, and manage everything with your free account. It’s quick, easy, and backed by our dedicated support team.
+    - generic [ref=f6e1588]:
+      - heading "Expert advice to book the perfect venue" [level=2] [ref=f6e1589]
+      - paragraph [ref=f6e1590]: Learn how Tagvenue has helped over 1M+ people find and book the ideal venue for events like yours.
+      - generic [ref=f6e1591]:
+        - generic [ref=f6e1593]:
+          - generic [ref=f6e1595]:
+            - img "10 Reasons Why Tagvenue Is the Best Choice for Your Next Event" [ref=f6e1596]
+            - link "10 Reasons Why Tagvenue Is the Best Choice for Your Next Event" [ref=f6e1597] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/blog/reasons-book-event-venue-tagvenue/
+            - paragraph [ref=f6e1598]: Discover the top 10 reasons why Tagvenue is the perfect platform for booking your next event venue.
+          - generic [ref=f6e1600]:
+            - img "Your Ultimate Christmas Party Checklist" [ref=f6e1601]
+            - link "Your Ultimate Christmas Party Checklist" [ref=f6e1602] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/blog/christmas-party-checklist/
+            - paragraph [ref=f6e1603]: Kickstart your Christmas party with Tagvenue's top tips and a downloadable checklist to simplify your planning.
+          - generic [ref=f6e1605]:
+            - img "What If I Need to Cancel My Venue Booking for My Event?" [ref=f6e1606]
+            - link "What If I Need to Cancel My Venue Booking for My Event?" [ref=f6e1607] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/blog/steps-to-cancel-your-venue-booking/
+            - paragraph [ref=f6e1608]: Learn the steps to cancel your venue booking, including how to access the 'Cancel booking' button and important policies to consider.
+          - generic [ref=f6e1610]:
+            - img "How Tagvenue Makes Sure You Only Book the Best, Verified Venues for Your Events" [ref=f6e1611]
+            - link "How Tagvenue Makes Sure You Only Book the Best, Verified Venues for Your Events" [ref=f6e1612] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/blog/how-tagvenue-verifies-lists-only-high-quality-venues-for-events/
+            - paragraph [ref=f6e1613]: Tagvenue personally verifies and validates every venue on our site, bringing you only high-quality venues to choose for your next big event.
+        - generic [ref=f6e1614] [cursor=pointer]
+      - generic [ref=f6e1615]:
+        - generic [ref=f6e1616]:
+          - heading "List your space for free and get more bookings!" [level=2] [ref=f6e1617]
+          - paragraph [ref=f6e1618]: We are the world’s fastest-growing online marketplace for venue hire, giving you direct access to the right customers.
+          - link "List your space" [ref=f6e1619] [cursor=pointer]:
+            - /url: https://www.tagvenue.com/page/list-your-venue
+        - img "List your space" [ref=f6e1621]
+  - contentinfo [ref=f6e1622]:
+    - generic [ref=f6e1625]:
+      - generic [ref=f6e1626]:
+        - img "Tagvenue" [ref=f6e1627]
+        - list [ref=f6e1628]:
+          - listitem [ref=f6e1629]:
+            - link "Tagvenue Twitter" [ref=f6e1630] [cursor=pointer]:
+              - /url: https://twitter.com/tagvenue
+          - listitem [ref=f6e1631]:
+            - link "Tagvenue Facebook" [ref=f6e1632] [cursor=pointer]:
+              - /url: https://www.facebook.com/tagvenue
+          - listitem [ref=f6e1633]:
+            - link "Tagvenue Instagram" [ref=f6e1634] [cursor=pointer]:
+              - /url: https://instagram.com/tagvenue/
+          - listitem [ref=f6e1635]:
+            - link "Tagvenue Linkedin" [ref=f6e1636] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/tagvenue
+        - list [ref=f6e1637]:
+          - listitem [ref=f6e1638]:
+            - link "Tagvenue Australia" [ref=f6e1639] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/au/
+          - listitem [ref=f6e1640]:
+            - link "Tagvenue Canada" [ref=f6e1641] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/ca/
+          - listitem [ref=f6e1642]:
+            - link "Tagvenue Ireland" [ref=f6e1643] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/ie/
+          - listitem [ref=f6e1644]:
+            - link "Tagvenue Singapore" [ref=f6e1645] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/sg/
+          - listitem [ref=f6e1646]:
+            - link "Tagvenue UK" [ref=f6e1647] [cursor=pointer]:
+              - /url: https://www.tagvenue.com
+          - listitem [ref=f6e1648]:
+            - link "Tagvenue USA" [ref=f6e1649] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/us/
+      - generic [ref=f6e1650]:
+        - generic [ref=f6e1651]: Users
+        - list [ref=f6e1652]:
+          - listitem [ref=f6e1653]:
+            - link "Why Tagvenue" [ref=f6e1654] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/page/faq-user
+          - listitem [ref=f6e1655]:
+            - link "User login" [ref=f6e1656] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/login/client
+      - generic [ref=f6e1657]:
+        - generic [ref=f6e1658]: Venues
+        - list [ref=f6e1659]:
+          - listitem [ref=f6e1660]:
+            - link "Why list with us" [ref=f6e1661] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/page/faq-venue
+          - listitem [ref=f6e1662]:
+            - link "List your space" [ref=f6e1663] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/page/list-your-venue
+          - listitem [ref=f6e1664]:
+            - link "Venue login" [ref=f6e1665] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/login/venue
+      - generic [ref=f6e1666]:
+        - generic [ref=f6e1667]: Tagvenue
+        - list [ref=f6e1668]:
+          - listitem [ref=f6e1669]:
+            - link "About us" [ref=f6e1670] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/page/about-us
+          - listitem [ref=f6e1671]:
+            - link "Help Centre" [ref=f6e1672] [cursor=pointer]:
+              - /url: https://support.tagvenue.com/hc/en-gb
+          - listitem [ref=f6e1673]:
+            - link "Contact us" [ref=f6e1674] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/page/contact-us
+          - listitem [ref=f6e1675]:
+            - link "Careers" [ref=f6e1676] [cursor=pointer]:
+              - /url: https://tagvenue.traffit.com/career/
+          - listitem [ref=f6e1677]:
+            - link "Terms & Privacy" [ref=f6e1678] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/page/terms-venue
+          - listitem [ref=f6e1679]:
+            - link "Press" [ref=f6e1680] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/page/press
+          - listitem [ref=f6e1681]:
+            - link "Blog" [ref=f6e1682] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/blog/
+          - listitem [ref=f6e1683]:
+            - link "Locations" [ref=f6e1684] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/locations
+          - listitem [ref=f6e1685]:
+            - link "Popular events" [ref=f6e1686] [cursor=pointer]:
+              - /url: https://www.tagvenue.com/event-types
+      - paragraph [ref=f6e1688]: © 2026 Tagvenue. All rights reserved.
